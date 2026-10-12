@@ -12,19 +12,19 @@ export const siteConfig = {
    */
   showroom: {
     name: "LEPAS Pitești",
-    // As listed for the Argeș dealer on lepas.ro/purchase/dealers — confirm before going live.
+    // Confirmed by the dealer.
     operator: "Paneuro",
-    address: "DN65B nr. 110C, Recea, 117226 Căteasca, Argeș",
-    /** How to find it from the motorway — shown as the site's signature next to the city name. */
-    landmark: "A1 · km 107",
+    address: "Str. Frații Golești nr. 95, Pitești, jud. Argeș",
+    /** The showroom's street — shown as the site's signature next to the city name. */
+    landmark: "Str. Frații Golești 95",
     phone: "+40 726 196 051",
     email: "office@adpaneuro.ro",
     /** Opening hours, one line per row, e.g. "Luni – Vineri: 9:00 – 18:00\nSâmbătă: 10:00 – 14:00". */
-    hours: "",
+    hours: "Luni – Vineri: 8:00 – 17:00",
     /** What the map on the contact page searches for. */
-    mapsQuery: "Paneuro, DN65B 110C, Recea, Căteasca, Argeș",
+    mapsQuery: "Str. Frații Golești nr. 95, Pitești",
     mapsUrl:
-      "https://www.google.com/maps/search/?api=1&query=Paneuro%2C%20DN65B%20110C%2C%20Recea%2C%20C%C4%83teasca%2C%20Arge%C8%99",
+      "https://www.google.com/maps/search/?api=1&query=LEPAS%20Paneuro%2C%20Str.%20Fra%C8%9Bii%20Gole%C8%99ti%20nr.%2095%2C%20Pite%C8%99ti%2C%20Arge%C8%99",
   },
   /**
    * The dealer's own accounts — add them here once they exist:

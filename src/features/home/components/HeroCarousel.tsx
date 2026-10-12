@@ -160,7 +160,7 @@ export function HeroCarousel({ slides, imageDuration }: Props) {
         </h1>
         <p className={styles.signatureTagline}>
           {t("tagline")}
-          {/* Where the showroom is: the motorway exit, as on a kilometre marker. */}
+          {/* Where the showroom is, at the end of a stretch of route. */}
           <span className={styles.signatureMarker}>{siteConfig.showroom.landmark}</span>
         </p>
       </div>

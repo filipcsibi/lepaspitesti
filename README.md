@@ -12,8 +12,8 @@ What sets it apart:
 - **LEPAS L6 PHEV and LEPAS L6 BEV are separate pages**, each with its own colour, figures and call-to-action, linked
   by a PHEV | BEV switch.
 - **Traseu** — the UI material: flat graphite plates with two cut corners, marked like waypoints, whose edge is
-  traced by a route line on hover and focus (`src/shared/ui/traseu`). The showroom's motorway exit, "A1 · km 107",
-  signs the home page.
+  traced by a route line on hover and focus (`src/shared/ui/traseu`). The showroom's street signs the home
+  page, at the end of a stretch of route.
 
 ```bash
 npm install
@@ -180,7 +180,7 @@ The site accent is `--color-accent` (Freedom Blue) in `globals.css`; model pages
 data file): orange for PHEV, green for BEV.
 
 **Before going live:** add the dealer's social
-accounts and opening hours in `src/config/site.ts`, and confirm the road distances in `src/features/range-map/config.ts`.
+accounts in `src/config/site.ts`, and confirm the road distances in `src/features/range-map/config.ts`.
 
 **Stack:** Next.js 16 (App Router, Turbopack), React 19, next-intl 4, GSAP 3 + ScrollTrigger, Lenis, Swiper 14,
 CSS Modules, Source Sans 3 (the Latin companion of the brand font Source Han Sans, with Romanian diacritics).
