@@ -1,169 +1,162 @@
-# Privacy Statement
+# LEPAS Pitești Privacy Policy
 
-Version update date:10th Jun. 2025
+## I. General information
 
-Version effective date:10th Jun. 2025
+The data controller is PANEURO PIESE ȘI ACCESORII AUTO SRL (referred to below as LEPAS PITEȘTI), with its registered office in Pitești, Str. Frații Golești nr. 95, Argeș county, registered with the Trade Register under no. J2004001409037, tax identification number 16686330. LEPAS PITEȘTI respects individuals' right to the confidentiality of their personal data and is responsible, as data controller, for processing your personal data.
 
-The entity responsible for the processing of personal data referred to below is CHERY Automobile Co.,Ltd (hereinafter referred to as "CHERY", "we" or "us"), a private company with limited liability established under the local and international laws and regulations, having its statutory seat in [No. 236, Yinhu North Rd, Free Trade Pilot Zone, Wuhu Area ,Anhui , China]. To ensure compliance with international data protection legislation, CHERY is the data controller of this personal data.
+This policy describes how we collect, use, protect and share personal data, as well as the choices and rights you have under the legislation in force.
 
-We give top priority to the protection of your personal data, and we process your data in accordance with applicable data protection laws. This statement provides comprehensive information about the processing of personal data when you use our website.
+The policy applies to the processing of personal data in the course of activities carried out through applications, websites (including lepaspitesti.ro), portals, online sales, marketing campaigns, sponsored social media platforms and other services offered or operated by us or by third parties on our behalf.
 
-**This Privacy Statement does not apply to:**
+This policy contains general rules and may be supplemented by specific privacy notices, depending on the services or activities in which personal data is involved. Additional notices will be communicated whenever necessary, through lepaspitesti.ro, direct communications, surveys, offers or events.
 
-1.The processing of personal data when you use our vehicle;
+## II. Definitions
 
-2.The processing of personal data when you interact with distributors, dealer, or retailers (such as when you purchase your car or have it repaired);
+- **Data controller** – the entity that determines the purposes and means of processing personal data.
+- **Data processor** – the person or organisation that processes personal data on behalf of the controller.
+- **Personal data** – any information relating to an identified or identifiable natural person (e.g. name, phone, e-mail, VIN etc.).
+- **Data protection contact point** – the channel through which you can send questions or requests about this policy and the processing of data.
+- **Data processing** – any operation performed on personal data (collection, storage, use, access etc.).
 
-3.Your use of third-party services in our website. The data processing of these services is subject to their individual privacy policies, which we strongly advise you to read carefully;
+## III. Processing principles
 
-4.Our employee personal data or candidate recruiting practices. For more information, please see our [EMPLOYEE PRIVACY STATEMENT](https://www.lepasinternational.com/home/employee_privacy_statement/index.shtml). or [CANDIDATE PRIVACY STATEMENT](https://www.lepasinternational.com/home/candidate_privacy_statement/index.shtml).
+LEPAS PITEȘTI undertakes to comply with the GDPR and with national data protection legislation, applying the following principles:
 
-**In this Privacy Statement, we will explain to you:**
+- **Lawfulness, fairness and transparency** – data is collected lawfully and transparently.
+- **Data minimisation** – we collect only the data needed for the stated purposes.
+- **Purpose limitation** – we process data only for legitimate and clearly defined purposes.
+- **Accuracy** – we keep data correct and up to date.
+- **Security** – we apply technical and organisational measures to protect data against unauthorised access, loss or destruction.
+- **Safeguards regarding third parties** – third parties access data in accordance with the law and under contractual safeguards.
+- **Storage limitation** – we keep data only for as long as needed for the purposes of the processing.
 
-1. What personal data we collect and how do we use it?
+## IV. Categories of data subjects
 
-2. What third-party services do we use?
+The processing concerns:
 
-3. With whom will we share this data?
+- Customers, natural or legal persons, who purchase LEPAS PITEȘTI products/services;
+- Authorised sole traders, owners of individual enterprises, independent professionals;
+- Legal representatives, partners, shareholders, employees or contact persons designated by customers;
+- Prospective customers in the context of offers;
+- Persons whose data is provided by customers (e.g. employees, collaborators, representatives).
 
-4. How do we transfer your data outside your region?
+In some cases, LEPAS PITEȘTI may process the data of data subjects without being able to inform them directly (e.g. data sent by a customer about employees or collaborators). In these situations, the customer is responsible for informing them and obtaining their consent, as required by law.
 
-5. What rights do you have in relation to your personal data?
+## V. What data we collect and from which sources
 
-6. How long do we retain your data?
+LEPAS PITEȘTI collects:
 
-7. How do we protect your data?
+- **Data provided directly** by you in your interactions with us;
 
-8. How can you contact us and make a request?
+**Data obtained from external sources**, such as:
 
-9. How will we update this Privacy Statement?
+- Authorised LEPAS PITEȘTI dealers and repairers (as controllers or processors);
+- Customers who provide data about representatives, employees, collaborators;
+- Authorities, public institutions, courts.
 
-## 1. What personal data we collect and how do we use it?
+The data collected may include: name, phone, personal identification number (CNP), e-mail, address, signature, VIN, engine number, registration number, make, model, type, date of manufacture and of delivery.
 
-We use the collected personal data when you visit our web applications to manage and meet with your service and information requests, to make our products and services as effective as possible, and to protect our IT systems from attacks and other illegal activities.
+Refusing to provide certain personal data may prevent the delivery of products/services or the communication of offers. For example, without your consent to marketing communications, we will not be able to send you the latest offers.
 
-To communicate with you:
+## VI. Purposes for which we collect and process personal data, and the applicable legal bases
 
-To ensure information security, and to understand and improve our products and services.
+Your personal data is collected and processed exclusively for specific, explicit and legitimate purposes, and is not later used in a way incompatible with those purposes.
 
-## 2. What third-party services do we use?
+LEPAS PITEȘTI therefore processes your personal data for the following purposes, on the following legal bases:
 
-On our websites, we incorporate social plugins from popular social networks like Instagram, Facebook, Twitter, TikTok, and YouTube. Here's how they work:
+- **To meet applicable legal obligations**, such as: issuing invoices, managing payments, sending legal notices, preparing financial reports, handling inspections by authorities, defending or exercising rights before the courts, resolving complaints and reports, archiving.
+- **To conclude and perform the contract** to which you are a party: managing the contractual relationship, providing the products or services requested, sending contractual notices, as agreed between you and LEPAS PITEȘTI.
+- **To pursue the legitimate interests of LEPAS PITEȘTI**, in the course of its business: processing data as a legal representative, partner, employee or contact person designated by the customer, running satisfaction surveys on the products and services offered through the authorised dealers and repairers in the LEPAS PITEȘTI network, improving the customer experience, defending rights in court, managing the commercial relationship with the manufacturer, auditing contractual obligations, sending data to partners involved in processing activities, including simple marketing.
+- **On the basis of your consent**: sending commercial and promotional information, marketing communications about LEPAS PITEȘTI products and services, carrying out market research, sharing data with affiliated or partner companies in the automotive, financial, insurance and telecommunications sectors, for the purpose of sending offers and commercial information ("Third-party marketing").
 
-- When you visit our websites, social media plugins are initially deactivated. This means no information is transmitted to the network operators. If you want to use any of these networks, simply click on the respective plugin to establish a direct connection to their servers.
+Consent may be withdrawn at any time, without affecting the lawfulness of processing carried out before the withdrawal.
 
-- If you're logged into your user account on a social network when you activate the plugin, the network can recognize your visit to our websites and associate it with your account. To prevent this, please log out of the network before activating the social plugin. The social network cannot detect your visits to other websites of ours unless you activate its social plugin on those sites too.
+Data may be processed by printed, automated or electronic means, including by post, e-mail, phone (call, SMS, MMS), fax or other electronic channels (e.g. website, mobile application).
 
-- When you activate a social plugin, the network directly transfers the available content to your browser, which integrates it into our websites. During this process, data transfers controlled by the respective social network may occur. Your connection to a social network, the data transfers between the network and your system, and your interactions on the platform are governed solely by the network's data protection provisions.
+## VII. Protection of personal data
 
-- The social plugin remains active until you deactivate it or delete your cookies. For more information about cookies setting, please read our [Cookies Notice](page:/cookies).
+LEPAS PITEȘTI implements appropriate technical and organisational measures to protect personal data against unauthorised access, unlawful use, accidental loss or damage to its integrity. These measures are adapted to the IT infrastructure, the potential risks, the costs involved and current industry standards.
 
-Please note that our website may feature links to external websites beyond our control, and this Privacy Policy does not apply to them. If you access these websites through the provided links, the operators of those websites may collect information from you according to their own privacy policies, which may differ from ours.
+Data will be processed by processors only if they comply with the required security measures.
 
-## 3. With whom will we share this data?
+Data security means:
 
-**3.1 Affiliates and subsidiaries**
+- **Confidentiality** – preventing unauthorised disclosure to third parties;
+- **Integrity** – protection against unauthorised changes;
+- **Availability** – controlled access for authorised persons, only when necessary.
 
-To assist, operate, enhance, and fulfil services on our behalf based on our legitimate interests to outsource certain operations, we share personal data with our affiliates and subsidiaries.
+The measures include: access control, backup systems, monitoring, maintenance, security incident management and business continuity.
 
-**3.2 Services providers and business partners as data processors:**
+## VIII. How long personal data is kept
 
-We share data with our services providers and partners to maintain our business operations, our relationship with you, and provide you with our services:
+Personal data will be kept in accordance with applicable legislation, for as long as needed for the purposes of the processing or to comply with legal obligations.
 
-**3.3 Law enforcement and government authorities**
+Examples:
 
-To fulfil our legal obligations, we may be required to disclose information in response to subpoenas, court orders, or lawful requests from government authorities conducting investigations. This includes compliance with law enforcement requirements, regulatory inquiries, and the verification or enforcement of our policies and procedures. We may also disclose information in emergency situations to prevent or halt potentially illegal, unethical, or legally actionable activities. When we receive a request for personal data from a law enforcement authority, we assess the necessity and proportionality of the requested information.
+- Requests for an offer, test drive etc.: kept for 3 years;
+- Purchases of products/services: kept for 6 years;
+- Satisfaction surveys: kept for at most 6 years.
 
-## 4. How do we transfer your data outside your region?
+After these periods expire, LEPAS PITEȘTI may keep the data for a further period if there is a legitimate interest (e.g. defending rights in court, in accordance with legal requirements).
 
-CHERY is a global company, and we operate internationally. By making a purchase or otherwise submitting your personal data to us, your information may be transferred to CHERY in the countries other than your place of residence or in which the information was originally collected. For example, where we have facilities or in which we engage service providers. CHERY complies with laws on the transfer of personal data between countries to help ensure your data is protected as described in this Statement, wherever it may be.
+For details on how long certain personal data is stored, you can contact us at the data protection contact point: **office@adpaneuro.ro**
 
-We may rely on various legal grounds to collect, use, and otherwise process your information, including: your consent; that the information is necessary for the performance of a contract with you; to comply with a legal obligation; to protect your, or someone else’s vital interests; or for a legitimate interest that is balanced against your rights and interests. These legitimate interests may include CHERY’s interest in improving its products and services, enhancing safety and security, protecting CHERY or its business partners against wrongful conduct, and responding to customer inquiries and claims. Where applicable, we will inform you whether and why we need certain information from you, for example, whether we need the information to fulfill a legal or contractual requirement and what the consequences are of not providing the information.
+## IX. Disclosure of personal data
 
-If you are located in the European Economic Area (EEA), the United Kingdom (UK), or Switzerland, we ensure that the transfer of your personal data is carried out in accordance with applicable privacy laws and, in particular, that appropriate contractual, technical, and organizational measures are in place. CHERY's international transfer of personal data collected in the EEA, the UK, and Switzerland is governed by Standard Contractual Clauses. The controller of personal data relating to individuals located in the EEA, UK, or Switzerland, is O&J Automotive Netherlands B.V.
+Depending on the purposes for which we collect the data, we may disclose it to the following categories of recipients:
 
-## 5. What rights do you have in relation to your personal data?
+**a) Within the LEPAS PITEȘTI organisation and the entities that promote our products and services:**
 
-**5.1 Right to withdraw consent**
+- Authorised members of staff;
+- Affiliates and subsidiaries of LEPAS PITEȘTI;
+- Members of the network of authorised dealers and authorised repairers.
 
-Where you have given consent for the processing of your personal data, you may withdraw your consent at any moment with effect for the future.
+**b) Third-party business partners:**
 
-**5.2 Right to access your personal data**
+- Advertising, marketing and promotion agencies that help deliver our campaigns and analyse their effectiveness;
+- Service providers acting on behalf of LEPAS PITEȘTI, such as call centre agencies, customer satisfaction survey firms, lawyers, consultants, translators etc.;
+- Trusted business partners, such as insurance companies, brokers, leasing or audit firms, which may use personal data to provide you with the products or services requested. We ask these partners to comply with applicable legislation and to protect the confidentiality of your data;
+- Chery Automobile Co Ltd., the manufacturer, for managing the commercial relationship with LEPAS PITEȘTI, including for auditing and fulfilling contractual obligations.
 
-You have the right to request information about the personal data we hold regarding you. Upon request, we will provide you with a copy of your personal data.
+**c) Other third parties – if required by law or necessary to protect the interests of LEPAS PITEȘTI:**
 
-**5.3 Right to rectification**
+- Authorities, public institutions, courts, bailiffs, on the basis of legal obligations, court decisions or official requests.
 
-You may request from us the rectification of incorrect or incomplete personal data concerning you. We make reasonable efforts to keep personal data in our possession or control, which are used on an ongoing basis, accurate, complete, current and relevant, based on the most recent information available to us.
+## X. Transfer of personal data outside the country
 
-**5.4 Right to restriction**
+In the course of contractual relationships, LEPAS PITEȘTI may transfer personal data to countries in the European Economic Area (EEA), such as Italy, France and the Netherlands, including to databases managed by entities acting on behalf of the company. These transfers are carried out in accordance with data protection legislation and strictly for the purposes for which the data was collected.
 
-You may request from us the restriction of processing of your personal data, if:
+For transfers outside the EEA, LEPAS PITEȘTI will use standard contractual clauses adopted by the European Commission, together with additional protective measures where necessary, or other legal safeguards (e.g. adequacy decisions). You will be informed accordingly in such situations.
 
-You contest the accuracy of your personal data, for the period we need to verify the accuracy;
+The list of countries to which data is transferred may be updated as the processing activities evolve.
 
-The processing is unlawful and you request the restriction of processing rather than erasure of your personal data;
+## XI. Your relationship with authorised LEPAS PITEȘTI dealers and repairers
 
-We no longer need your personal data for the processing purpose, but you require them for the establishment, exercise, or defense of legal claims;
+If you purchase a vehicle, product or service from an authorised LEPAS PITEȘTI dealer or repairer, or if you provide them with personal data, you will have a separate relationship with them. In that case, they may become a controller of your personal data, alone or jointly with LEPAS PITEȘTI.
 
-You object to the processing while we verify whether our legitimate grounds override yours.
+For questions about how authorised dealers or repairers collect and use data, please contact them directly. In some cases, they may also act as processors on behalf of LEPAS PITEȘTI.
 
-**5.5 Right to portability:**
+## XII. Your rights regarding personal data
 
-You have the right to receive your personal data provided to us and, where technically feasible, request its transfer to another organization. This right applies if we process your personal data through automated means, based on your consent or for the performance of a contract you are a party to. Your personal data must have been provided by you, and this right should not adversely affect the rights and freedoms of others. You can receive your personal data in a structured, commonly used, and machine-readable format. The transmission of your personal data to another organization is subject to technical feasibility.
+Under applicable legislation, you have the following rights:
 
-**5.6 Right to erasure**
+- **Information** – about the processing activities carried out by LEPAS PITEȘTI;
+- **Access** – the right to obtain confirmation of the processing and access to the personal data;
+- **Rectification** – correcting inaccurate data and completing incomplete data;
+- **Erasure** ("the right to be forgotten") – removal of the data, under the conditions set by law;
+- **Restriction** – limiting the processing, as provided by law;
+- **Objection** – the right to object to processing, in particular for direct marketing purposes;
+- **Portability** – receiving the data in a structured format and transferring it to another controller;
+- **Withdrawal of consent** – at any time, without affecting the lawfulness of earlier processing;
+- **Automated decisions** – the right to request a review of decisions based solely on automated processing;
+- **Complaint** – lodging a complaint with the Romanian National Supervisory Authority for Personal Data Processing ([www.dataprotection.ro](https://www.dataprotection.ro)) or with the competent courts.
 
-You have the right to request that we delete the personal data we process about you. We must comply with this request unless the processing of your personal data is necessary for:
+To exercise these rights or for further information, you can contact us at: [**office@adpaneuro.ro**](mailto:office@adpaneuro.ro)
 
-·Compliance with a legal obligation requiring processing by laws to which we are subject;
+## XIII. Data protection contact point
 
-·Archiving purposes in the public interest, scientific or historical research purposes, or statistical purposes;
+For any questions or requests about this policy and/or the processing of personal data, please contact:
 
-·The establishment, exercise, or defense of legal claims.
+**PANEURO PIESE ȘI ACCESORII AUTO SRL** Registered office: Pitești, Str. Frații Golești nr. 95, Argeș county, registered with the Trade Register under no. J2004001409037, tax identification number 16686330, e-mail: [office@adpaneuro.ro](mailto:office@adpaneuro.ro)
 
-**5.7 Right to object**
-
-You have the right to object, at any time, to the processing of your personal data based on our legitimate interests or the legitimate interests of a third party, provided that the processing is not based on your consent. If you exercise this right, we will no longer process your personal data unless we can demonstrate compelling legitimate grounds that override your interests, rights, and freedoms, or if the processing is necessary for legal claims. If you object to the processing, please let us know if you also wish for your personal data to be erased.
-
-**5.8 Right to be informed**
-
-You have the right to be informed about the collection and use of your personal data. We have prepared this Statement for this purpose, and you will be informed of any changes to this Statement.
-
-**5.9 Right to lodge a complaint**
-
-You have the right to lodge a complaint with your local data protection supervisory authority or with any other data protection authority in your region. However, we would appreciate it if you first contact us to try to solve your issue – you can find our contact details in Section 8.
-
-## 6. How long do we retain your data?
-
-We retain data related to our provided services in accordance with legal obligations. If you are a customer, we will keep your data for the duration of any contractual relationship you have with us, and, where permitted, beyond the end of that relationship for as long as necessary to fulfil the purposes set out in this Privacy Statement.
-
-We retain the data we collect from or about you for the period necessary to fulfil the purposes outlined in this Privacy Statement, unless a longer retention period is required or permitted by law. Once the data is no longer necessary for these purposes, we either delete it or retain it in an anonymized form. In determining the appropriate retention period, we take into account various criteria, including the type of services requested by or provided to you, the nature of our relationship with you, the potential impact on the services we provide to you if we delete certain data about you, and the retention periods mandated by law.
-
-## 7. How do we protect your data?
-
-We strive to maintain high security standards and have implemented robust technical and organizational measures to protect your data, in accordance with the current, general state of technology. We ensure that your personal data is adequately secured against loss, falsification or unauthorized access. However, please note that the transmission of information via the internet is not completely secure. While we do our best to protect your personal data, we cannot guarantee 100% security of your data transmitted to us.
-
-Once we have received your personal data, we use strict procedures and security features to prevent unauthorized access. In the unfortunate event of a personal data incident, we will report it and take remedial measures in accordance with the requirements of the law and regulatory authorities.
-
-## 8. Privacy of children
-
-We do not knowingly collect or use any Personal Data from children (we define 'children'as minors younger than 14) without prior, verifiable consent which is given or authorized by the holder of parental responsibility over the child. We do not knowingly allow children to order our vehicles, communicate with us, or use any of our online services.
-
-If you become aware that a child has provided us with Personal Data, please contact us: [brand@lepasinternational.com](mailto:brand@lepasinternational.com). We will take all reasonable measures to delete the information as soon as possible and to not use such information for any purpose, except where necessary to protect the safety of the child or others as required by law.
-
-## 9. How can you contact us and make a request？
-
-If you have any questions about the processing of your personal data, we recommend reading through this Privacy Statement first. To make a query, raise a concern, or exercise your data subject rights, please feel free to contact us via:
-
-E-mail Address: [brand@lepasinternational.com](mailto:brand@lepasinternational.com)
-
-Mailing Address: Kingsfordweg 151, 1043GR Amsterdam
-
-We take your privacy seriously and aim to respond to you within one month or within the timeline specified by the relevant local privacy protection law, after confirming your identity.
-
-If you believe that we have not adequately addressed your complaints or concerns, you have the right to lodge a complaint with a competent data protection authority.
-
-## 10. How will we update this Privacy Statement？
-
-We may update this Privacy Statement, for example, to reflect changes in our business operations and measures for protecting personal information. If we make changes to this Privacy Statement, we will notify you. Where changes to this Privacy Statement significantly impact the nature of our data processing or have a substantial effect on you, we will provide sufficient advance notice, allowing you the opportunity to exercise any applicable rights.
+**Last updated: 8 October 2026**
