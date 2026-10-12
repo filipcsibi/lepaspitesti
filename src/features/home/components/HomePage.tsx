@@ -1,5 +1,3 @@
-import { Advisor } from "@/features/advisor";
-import { RangeMap } from "@/features/range-map";
 import { homeContent } from "../content";
 import { AboutIntro } from "./AboutIntro";
 import { HeroCarousel } from "./HeroCarousel";
@@ -11,8 +9,6 @@ export function HomePage() {
     <>
       <HeroCarousel slides={homeContent.hero.slides} imageDuration={homeContent.hero.imageDuration} />
       <ModelShowcase items={homeContent.models} />
-      <RangeMap />
-      <Advisor />
       <AboutIntro content={homeContent.about} />
     </>
   );

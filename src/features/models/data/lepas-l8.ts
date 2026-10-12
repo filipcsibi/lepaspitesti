@@ -65,33 +65,10 @@ export const lepasL8: ModelDefinition = {
       hotspots: [
         { titleKey: "hotspots.frontFascia", image: m("1758525951266889.jpg"), top: 48, right: 54 },
         { titleKey: "hotspots.headlights", image: m("1758526086594997.jpg"), top: 46, right: 42 },
-        { titleKey: "hotspots.cockpit", image: m("1764064488044789.jpg"), top: 35, right: 35 },
+        { titleKey: "hotspots.cockpit", image: m("1764123336395450.jpg"), top: 35, right: 35 },
         { titleKey: "hotspots.doorHandle", image: m("1764064413679367.jpg"), top: 43, right: 18 },
         { titleKey: "hotspots.bionicDesign", image: m("1758526033549513.jpg"), top: 48, right: 23 },
         { titleKey: "hotspots.taillights", image: m("1758526011079601.jpg"), top: 39, right: 14 },
-      ],
-    },
-    {
-      type: "fullscreenSlider",
-      labelKey: "labels.luxuriousSpace",
-      variant: "caption",
-      slides: [
-        {
-          video: m("1764139503026712.mp4"),
-          image: { src: m("1764065659726770.jpg") },
-          titleKey: "interior.flexibleSpace",
-        },
-        {
-          video: m("1764065614053401.mp4"),
-          image: { src: m("1764065594211466.jpg") },
-          titleKey: "interior.windshield",
-        },
-        {
-          video: m("1764065537500005.mp4"),
-          image: { src: m("1764065494791992.jpg") },
-          titleKey: "interior.airQuality",
-        },
-        { video: m("1764065432777914.mp4"), image: { src: m("1764065403246003.jpg") }, titleKey: "interior.seats" },
       ],
     },
     {
@@ -99,11 +76,6 @@ export const lepasL8: ModelDefinition = {
       labelKey: "labels.luxuriousSpace",
       titleKey: "cockpit.title",
       colors: [
-        {
-          swatch: m("1764066514538197.png"),
-          ring: "#256268",
-          image: { src: m("1764066526442229.jpg"), mobileSrc: m("1764066537955431.jpg") },
-        },
         {
           swatch: m("1764065812256795.png"),
           ring: "#d1b690",
@@ -114,18 +86,6 @@ export const lepasL8: ModelDefinition = {
           ring: "#242424",
           image: { src: m("1764123336395450.jpg"), mobileSrc: m("1764067363716146.jpg") },
         },
-      ],
-    },
-    {
-      type: "cardCarousel",
-      titleKey: "thirdSpace.title",
-      background: m("interior_bg.jpg"),
-      items: [
-        { image: m("1764067737420543.jpg"), titleKey: "thirdSpace.natureDesign" },
-        { image: m("1764067698442149.jpg"), titleKey: "thirdSpace.speakers" },
-        { image: m("1764067662229683.jpg"), titleKey: "thirdSpace.velvet" },
-        { image: m("1764131630754477.jpg"), titleKey: "thirdSpace.hmi" },
-        { image: m("1764067523455093.jpg"), titleKey: "thirdSpace.phoneDock" },
       ],
     },
     {
@@ -162,7 +122,7 @@ export const lepasL8: ModelDefinition = {
       variant: "feature",
       slides: [
         {
-          image: { src: m("1764068360345216.jpg"), mobileSrc: m("1764068378137425.jpg") },
+          image: { src: m("1764123336395450.jpg"), mobileSrc: m("1764067363716146.jpg") },
           titleKey: "driving.iovTitle",
           textKey: "driving.iovText",
         },
@@ -183,9 +143,9 @@ export const lepasL8: ModelDefinition = {
       type: "gallery",
       titleKey: "gallery.title",
       groups: [
-        [m("1764068759724511.jpg"), m("1764068773164286.jpg"), m("1764068784917412.jpg")],
+        [m("1764068759724511.jpg"), m("1764068784917412.jpg")],
         [m("1764068719079884.jpg")],
-        [m("1764068669314939.jpg"), m("1764068684827364.jpg")],
+        [m("1764068669314939.jpg")],
       ],
     },
   ],

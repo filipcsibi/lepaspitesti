@@ -47,22 +47,8 @@
       "bionicDesign": "Leopard Dynamic Bionic Design",
       "taillights": "Full-Width LED Taillights"
     },
-    "interior": {
-      "flexibleSpace": "Flexible Interior Space",
-      "windshield": "Heat-insulating Windshield",
-      "airQuality": "Air Quality Monitoring System\nActive Fragrance System",
-      "seats": "Multifunctional Seat"
-    },
     "cockpit": {
       "title": "Cockpit Interior"
-    },
-    "thirdSpace": {
-      "title": "Enjoy the Elegant Third Space",
-      "natureDesign": "Nature Inspired Interior Design",
-      "speakers": "Pebble-stone Texture Speakers",
-      "velvet": "Velvety Textures Create Warmth and Tranquility",
-      "hmi": "Advanced Human-Machine Interaction",
-      "phoneDock": "Central Phone Dock"
     },
     "power": {
       "stage1": "Refuse Waste, Pay\nOnly For Quality",
