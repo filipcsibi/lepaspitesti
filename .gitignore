@@ -48,3 +48,6 @@ next-env.d.ts
 
 # local video masters (hosted on Vercel Blob, see scripts/upload-videos.mjs)
 /media-source/
+
+# Supabase CLI working folder
+/supabase/.temp/
