@@ -47,8 +47,21 @@
       "bionicDesign": "Design bionic dinamic inspirat de leopard",
       "taillights": "Stopuri LED pe toată lățimea"
     },
+    "interior": {
+      "flexibleSpace": "Spațiu interior flexibil",
+      "windshield": "Parbriz cu izolare termică",
+      "seats": "Scaune multifuncționale"
+    },
     "cockpit": {
       "title": "Interiorul cockpitului"
+    },
+    "thirdSpace": {
+      "title": "Bucură-te de al treilea spațiu elegant",
+      "natureDesign": "Design interior inspirat de natură",
+      "speakers": "Difuzoare cu textură de piatră de râu",
+      "velvet": "Texturi catifelate care creează căldură și liniște",
+      "hmi": "Interacțiune om-mașină avansată",
+      "phoneDock": "Suport central pentru telefon"
     },
     "power": {
       "stage1": "Refuză risipa, plătește\ndoar pentru calitate",

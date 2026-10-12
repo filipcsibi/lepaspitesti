@@ -72,6 +72,24 @@ export const lepasL8: ModelDefinition = {
       ],
     },
     {
+      type: "fullscreenSlider",
+      labelKey: "labels.luxuriousSpace",
+      variant: "caption",
+      slides: [
+        {
+          video: m("1764139503026712.mp4"),
+          image: { src: m("1764065659726770.jpg") },
+          titleKey: "interior.flexibleSpace",
+        },
+        {
+          video: m("1764065614053401.mp4"),
+          image: { src: m("1764065594211466.jpg") },
+          titleKey: "interior.windshield",
+        },
+        { video: m("1764065432777914.mp4"), image: { src: m("1764065403246003.jpg") }, titleKey: "interior.seats" },
+      ],
+    },
+    {
       type: "colorShowcase",
       labelKey: "labels.luxuriousSpace",
       titleKey: "cockpit.title",
@@ -86,6 +104,18 @@ export const lepasL8: ModelDefinition = {
           ring: "#242424",
           image: { src: m("1764123336395450.jpg"), mobileSrc: m("1764067363716146.jpg") },
         },
+      ],
+    },
+    {
+      type: "cardCarousel",
+      titleKey: "thirdSpace.title",
+      background: m("interior_bg.jpg"),
+      items: [
+        { image: m("1764067737420543.jpg"), titleKey: "thirdSpace.natureDesign" },
+        { image: m("1764067698442149.jpg"), titleKey: "thirdSpace.speakers" },
+        { image: m("1764067662229683.jpg"), titleKey: "thirdSpace.velvet" },
+        { image: m("1764131630754477.jpg"), titleKey: "thirdSpace.hmi" },
+        { image: m("1764067523455093.jpg"), titleKey: "thirdSpace.phoneDock" },
       ],
     },
     {
