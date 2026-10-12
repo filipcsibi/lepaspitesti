@@ -35,8 +35,14 @@ export const testDriveLandings: TestDriveLanding[] = [
     hero: { src: l8("1764062236211696.jpg"), mobileSrc: l8("1764062245625429.jpg") },
     // Official Romanian launch (Oct 2026): list 45,500 €, launch offer 42,500 €.
     price: { list: 45500, launch: 42500, currency: "EUR" },
-    reasonImages: [l8("1764068719079884.jpg"), l8("1764065821004875.jpg"), l8("power.jpg"), l8("1764123336395450.jpg")],
-    gallery: [l8("1764068759724511.jpg"), l8("1764068784917412.jpg"), l8("1764068669314939.jpg")],
+    reasonImages: [l8("1764068719079884.jpg"), l8("1764065821004875.jpg"), l8("power.jpg"), l8("1764068360345216.jpg")],
+    gallery: [
+      l8("1764068759724511.jpg"),
+      l8("1764068773164286.jpg"),
+      l8("1764068784917412.jpg"),
+      l8("1764068669314939.jpg"),
+      l8("1764068684827364.jpg"),
+    ],
   },
   {
     // Pre-order page: the L6 can be ordered at the launch price but is not yet available to drive.
