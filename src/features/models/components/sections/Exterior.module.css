@@ -1,0 +1,238 @@
+.section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background: #050305;
+}
+
+.stage {
+  position: absolute;
+  inset: 0;
+  transition: transform 1s var(--ease-out-power2);
+}
+
+.section[data-open] .stage {
+  transform: translateX(-40%);
+}
+
+.image {
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  transition:
+    opacity 1s var(--ease-out-power2),
+    filter 1s var(--ease-out-power2);
+}
+
+.overlay > * {
+  pointer-events: auto;
+}
+
+.section[data-open] .overlay {
+  opacity: 0;
+  filter: blur(0.3rem);
+  pointer-events: none;
+}
+
+.section[data-open] .overlay > * {
+  pointer-events: none;
+}
+
+.label {
+  position: absolute;
+  top: 1.64rem;
+  left: 1.5rem;
+}
+
+.picker {
+  position: absolute !important;
+  top: 78vh;
+  left: 50%;
+  translate: -50% 0;
+}
+
+.specs {
+  position: absolute;
+  top: 86vh;
+  left: 0;
+  width: 100%;
+}
+
+/* Pulsing hotspot */
+.hotspot {
+  position: absolute;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.hotspot::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 22px;
+  height: 22px;
+  border: 2px solid var(--color-white);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.18);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  translate: -50% -50%;
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
+}
+
+.hotspot::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 26px;
+  height: 26px;
+  margin: -13px 0 0 -13px;
+  border: 2px solid var(--color-white);
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+.hotspot:hover::before,
+.hotspotActive::before {
+  background: var(--color-white);
+  transform: scale(0.6);
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2.5);
+  }
+}
+
+/* Detail panel */
+.panel {
+  --traseu-cut-tr: 0px;
+  --traseu-cut-bl: 0.3rem;
+  --traseu-tint: rgba(5, 3, 5, 0.6);
+  --traseu-blur: 24px;
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  width: 50%;
+  height: 100%;
+  padding: 1.2rem 0.8rem 0.8rem;
+  color: var(--color-gray-dcdcde);
+  transform: translateX(105%);
+  transition: transform 1s var(--ease-out-power2);
+}
+
+.section[data-open] .panel {
+  transform: none;
+}
+
+.close {
+  position: absolute !important;
+  top: 0.4rem;
+  right: 0.4rem;
+}
+
+.panelTitle {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 0.5rem;
+  font-size: var(--font-size-12);
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--color-white);
+}
+
+.panelImage {
+  position: relative;
+  z-index: 2;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.panelImage img {
+  object-fit: cover;
+}
+
+.mobileDetails {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .section {
+    height: var(--mobile-media-height);
+  }
+
+  .label {
+    top: 1.4rem;
+    left: 0.78rem;
+  }
+
+  .picker {
+    top: 64%;
+  }
+
+  .specs {
+    top: 72%;
+  }
+
+  .hotspot,
+  .panel {
+    display: none;
+  }
+
+  .mobileDetails {
+    display: block;
+    padding: 0.8rem 0.3rem 0.6rem;
+    background: #050305;
+  }
+
+  .mobileSwiper {
+    padding-bottom: 0.6rem !important;
+    --swiper-pagination-color: var(--color-accent);
+    --swiper-pagination-bullet-inactive-color: #fff;
+  }
+
+  .mobileTitle {
+    margin-bottom: 0.3rem;
+    font-size: 0.4rem;
+    font-weight: 700;
+    color: var(--color-white);
+  }
+
+  .mobileImage {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 2px;
+  }
+
+  .mobileImage img {
+    object-fit: cover;
+  }
+}

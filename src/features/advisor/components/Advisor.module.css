@@ -1,0 +1,321 @@
+.section {
+  --accent: var(--color-accent);
+  padding: 1.2rem var(--page-gutter) 1rem;
+  color: var(--color-white);
+  background:
+    radial-gradient(50% 60% at 20% 0%, color-mix(in srgb, var(--accent) 12%, transparent), transparent 70%), #0d0e12;
+  transition: background 0.6s ease;
+}
+
+.header {
+  max-width: 9rem;
+}
+
+.eyebrow {
+  font-size: var(--font-size-2);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  transition: color 0.5s ease;
+}
+
+.title {
+  margin-top: 0.16rem;
+  font-size: 0.56rem;
+  font-weight: 700;
+  line-height: 1.12;
+}
+
+.text {
+  margin-top: 0.22rem;
+  font-size: var(--font-size-3);
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  gap: 0.3rem;
+  margin-top: 0.6rem;
+}
+
+.card {
+  --traseu-cut: 0.24rem;
+  --traseu-base: rgba(20, 21, 27, 0.9);
+  padding: 0.44rem;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.field {
+  position: relative;
+  z-index: 2;
+  display: block;
+}
+
+.fieldHead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.2rem;
+  margin-bottom: 0.12rem;
+  font-size: var(--font-size-2);
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.fieldValue {
+  font-size: var(--font-size-5);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-white);
+  white-space: nowrap;
+}
+
+.field input[type="range"] {
+  --fill: 50%;
+  display: block;
+  width: 100%;
+  height: 28px;
+  margin: 0;
+  background: transparent;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.field input[type="range"]::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(to right, var(--accent) var(--fill), rgba(255, 255, 255, 0.16) var(--fill));
+}
+
+.field input[type="range"]::-moz-range-track {
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(to right, var(--accent) var(--fill), rgba(255, 255, 255, 0.16) var(--fill));
+}
+
+.field input[type="range"]::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
+  margin-top: -8px;
+  border: 3px solid #14151b;
+  border-radius: 50%;
+  background: var(--color-white);
+  box-shadow: 0 0 0 1px var(--accent);
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.field input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border: 3px solid #14151b;
+  border-radius: 50%;
+  background: var(--color-white);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.toggle {
+  width: 2.6rem;
+  height: 0.5rem;
+}
+
+.toggle button {
+  font-size: 0.17rem;
+}
+
+.result > * {
+  position: relative;
+  z-index: 2;
+}
+
+.resultLabel {
+  font-size: var(--font-size-2);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.resultName {
+  margin-top: 0.06rem;
+  font-size: 0.5rem;
+  font-weight: 300;
+  line-height: 1.15;
+}
+
+.resultName strong {
+  font-weight: 700;
+  color: var(--accent);
+  transition: color 0.5s ease;
+}
+
+.resultReason {
+  margin-top: 0.14rem;
+  min-height: 3.1em;
+  font-size: var(--font-size-3);
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.bars {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-top: 0.34rem;
+}
+
+.bar {
+  display: grid;
+  grid-template-columns: 2.2rem minmax(0, 1fr) 1.9rem;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: var(--font-size-2);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.barActive {
+  color: var(--color-white);
+}
+
+.barTrack {
+  height: 0.1rem;
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+
+.barFill {
+  display: block;
+  width: var(--w);
+  height: 100%;
+  border-radius: inherit;
+  background: var(--bar);
+  transition: width 0.6s var(--ease-out-expo);
+}
+
+.barValue {
+  text-align: right;
+  font-size: var(--font-size-5);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.barValue small {
+  font-size: 0.6em;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.saving {
+  margin-top: 0.3rem;
+  font-size: var(--font-size-3);
+  font-weight: 500;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.16rem;
+  margin-top: 0.4rem;
+}
+
+.footnote {
+  margin-top: 0.3rem;
+  max-width: 13rem;
+  font-size: 0.14rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding: 1rem var(--page-gutter) 0.9rem;
+  }
+
+  .eyebrow {
+    font-size: 0.24rem;
+  }
+
+  .title {
+    font-size: 0.6rem;
+  }
+
+  .text {
+    font-size: 0.28rem;
+  }
+
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.24rem;
+    margin-top: 0.5rem;
+  }
+
+  .card {
+    --traseu-cut: 0.32rem;
+    padding: 0.4rem 0.34rem;
+  }
+
+  .inputs {
+    gap: 0.4rem;
+  }
+
+  .fieldHead {
+    font-size: 0.26rem;
+  }
+
+  .fieldValue {
+    font-size: 0.32rem;
+  }
+
+  .toggle {
+    width: 4rem;
+    height: 0.8rem;
+  }
+
+  .toggle button {
+    font-size: 0.26rem;
+  }
+
+  .resultLabel {
+    font-size: 0.26rem;
+  }
+
+  .resultName {
+    font-size: 0.6rem;
+  }
+
+  .resultReason {
+    min-height: 0;
+    font-size: 0.28rem;
+  }
+
+  .bar {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.1rem 0.2rem;
+    font-size: 0.26rem;
+  }
+
+  .barTrack {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    height: 0.14rem;
+  }
+
+  .barValue {
+    font-size: 0.3rem;
+  }
+
+  .saving {
+    font-size: 0.28rem;
+  }
+
+  .footnote {
+    font-size: 0.22rem;
+  }
+}

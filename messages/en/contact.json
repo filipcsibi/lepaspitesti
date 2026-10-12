@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Contact – LEPAS Pitești showroom",
+    "description": "Address, phone and e-mail of the LEPAS Pitești showroom. Call us or book a test drive."
+  },
+  "eyebrow": "Contact",
+  "text": "Come to the showroom to see the LEPAS models, call us or write to us – we'll answer any question about versions, prices, financing and delivery.",
+  "call": "Call us",
+  "testDrive": "Book a test drive",
+  "address": "Address",
+  "operator": "Authorised dealer: {name}",
+  "directions": "Open in Google Maps",
+  "phone": "Phone",
+  "email": "E-mail",
+  "hours": "Opening hours",
+  "mapTitle": "Map of the LEPAS Pitești showroom",
+  "loadMap": "Show the map",
+  "mapNote": "The map is provided by Google. When it loads, Google may store cookies and receives your IP address.",
+  "form": {
+    "title": "Write to us",
+    "subtitle": "Leave us your details and a LEPAS Pitești consultant will call you back.",
+    "name": "Full name",
+    "namePlaceholder": "e.g. Andrei Popescu",
+    "phone": "Phone",
+    "phonePlaceholder": "07xx xxx xxx",
+    "email": "E-mail",
+    "emailPlaceholder": "name@example.com",
+    "optional": "optional",
+    "model": "Model of interest",
+    "message": "Message",
+    "messagePlaceholder": "How can we help?",
+    "consent": "I agree to be contacted by LEPAS Pitești about my request. I have read the <privacy>Privacy Statement</privacy>.",
+    "submit": "Send message",
+    "submitting": "Sending…",
+    "successTitle": "Thank you! Your message has reached us.",
+    "successText": "A LEPAS Pitești consultant will call you shortly.",
+    "errors": {
+      "name": "Please tell us your name.",
+      "phone": "Enter a valid phone number (e.g. 0722 123 456).",
+      "email": "Enter a valid e-mail address.",
+      "consent": "We need your consent to be able to contact you.",
+      "generic": "We couldn't send your message. Please try again or call us."
+    }
+  }
+}

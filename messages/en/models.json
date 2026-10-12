@@ -1,0 +1,235 @@
+{
+  "ui": {
+    "colors": "Choose a colour",
+    "hotspots": "Design details",
+    "closeDetail": "Close details",
+    "over": "over",
+    "playFilm": "Play film",
+    "pauseFilm": "Pause",
+    "loading": "Loading…",
+    "gallery": "Photo gallery",
+    "variants": "Version",
+    "variantHints": {
+      "phev": "plug-in hybrid",
+      "bev": "100% electric"
+    }
+  },
+  "lepasL8": {
+    "meta": {
+      "title": "LEPAS L8",
+      "description": "LEPAS L8 – the Super Hybrid SUV with “Leopard Aesthetics” design, a combined range of over 1,200 km and an interior crafted as an elegant third space."
+    },
+    "name": "LEPAS L8",
+    "intro": "The Vehicle Designed To\nElevate Life's Quality",
+    "labels": {
+      "appearance": "Appearance",
+      "luxuriousSpace": "Luxurious Space",
+      "power": "Power",
+      "elegantDriving": "Elegant Driving"
+    },
+    "specs": {
+      "length": "Length",
+      "width": "Width",
+      "height": "Height",
+      "wheelbase": "Wheelbase",
+      "eRange": "E-Range",
+      "combinedRange": "Combined Range",
+      "combinedFuel": "Combined Fuel Consumption",
+      "thermalEfficiency": "Engine Thermal Efficiency",
+      "mechanicalEfficiency": "Mechanical Efficiency",
+      "electricRange": "Pure Electric Range"
+    },
+    "hotspots": {
+      "frontFascia": "Leopard-Inspired Front Fascia",
+      "headlights": "Leopard-Eye Headlights",
+      "cockpit": "Advanced Smart Cockpit",
+      "doorHandle": "Semi-concealed Door Handle",
+      "bionicDesign": "Leopard Dynamic Bionic Design",
+      "taillights": "Full-Width LED Taillights"
+    },
+    "interior": {
+      "flexibleSpace": "Flexible Interior Space",
+      "windshield": "Heat-insulating Windshield",
+      "airQuality": "Air Quality Monitoring System\nActive Fragrance System",
+      "seats": "Multifunctional Seat"
+    },
+    "cockpit": {
+      "title": "Cockpit Interior"
+    },
+    "thirdSpace": {
+      "title": "Enjoy the Elegant Third Space",
+      "natureDesign": "Nature Inspired Interior Design",
+      "speakers": "Pebble-stone Texture Speakers",
+      "velvet": "Velvety Textures Create Warmth and Tranquility",
+      "hmi": "Advanced Human-Machine Interaction",
+      "phoneDock": "Central Phone Dock"
+    },
+    "power": {
+      "stage1": "Refuse Waste, Pay\nOnly For Quality",
+      "stage2": "New Super Hybrid",
+      "stage3": "LEPAS Super\nHybrid System",
+      "electricExperience": "Electric Driving Experience",
+      "lowConsumption": "Ultra-low Fuel Consumption",
+      "longRange": "Ultra-long Range"
+    },
+    "driving": {
+      "iovTitle": "Internet of Vehicles",
+      "iovText": "Remote vehicle control through Internet of Vehicles with one-click start,\none-click vehicle locating, and air-conditioning timing.",
+      "surroundTitle": "Surround View and\nTransparent Chassis System"
+    },
+    "gallery": {
+      "title": "Leopard Aesthetics"
+    }
+  },
+  "lepasL6Phev": {
+    "meta": {
+      "title": "LEPAS L6 PHEV – plug-in hybrid SUV",
+      "description": "The LEPAS L6 PHEV at LEPAS Pitești: a 279 hp plug-in hybrid SUV with up to 92 km electric and 1,058 km combined range (WLTP)."
+    },
+    "name": "LEPAS L6 PHEV",
+    "eyebrow": "Plug-in hybrid",
+    "subtitle": "Electric in the city, carefree on long trips. 279 hp, up to 92 km on the battery alone and 1,058 km combined range (WLTP).",
+    "actions": {
+      "offer": "Request an offer",
+      "otherVariant": "See the L6 BEV"
+    },
+    "labels": {
+      "power": "Powertrain",
+      "exterior": "Exterior",
+      "interior": "Interior",
+      "experience": "Experience"
+    },
+    "exterior": {
+      "title": "Define your aesthetic"
+    },
+    "colors": {
+      "solarOrange": "Solar Orange",
+      "bambooGreen": "Bamboo Green",
+      "obsidianBlack": "Obsidian Black",
+      "champagneGold": "Champagne Gold",
+      "metallicSilver": "Metallic Silver",
+      "pearlWhite": "Pearl White"
+    },
+    "interior": {
+      "dashboard": "A digital cockpit built around the driver",
+      "front": "An airy front cabin",
+      "rear": "Room for everyone in the back"
+    },
+    "comfort": {
+      "title": "Elegant Comfort",
+      "text": "The Drive Your Elegance philosophy continues inside: materials that feel good, controls within easy reach and a calm atmosphere that makes any journey feel shorter.",
+      "connectedTitle": "Always connected",
+      "connectedText": "A generous central screen and digital instruments: navigation, phone and music are one gesture away, without taking your eyes off the road.",
+      "spaceTitle": "Space for everyone",
+      "spaceText": "Five genuinely usable seats, with generous head and knee room and storage designed for everyday things.",
+      "lastingTitle": "Comfort that lasts",
+      "lastingText": "Supportive seats, careful sound insulation and a suspension tuned for comfort – from the daily commute to holiday trips."
+    },
+    "gallery": {
+      "title": "LEPAS L6 in detail"
+    },
+    "power": {
+      "title": "Two sources of energy, one journey without breaks",
+      "text": "The 1.5 turbo petrol engine works together with an electric system fed by an 18.4 kWh battery. In the city you drive electric; on long trips you don't need to plan your stops.",
+      "highlight1": "Up to 92 km on electricity alone (WLTP) – the daily commute, without petrol",
+      "highlight2": "Up to 1,058 km on one tank and one charge (WLTP)",
+      "highlight3": "The battery charges from a socket while the car is parked",
+      "footnote": "WLTP figures, EU type approval, Essence and Elegance versions. Consumption with a depleted battery: 5.9 l/100 km; electric energy consumption: 14.8 kWh/100 km. Real-world figures vary with conditions, driving style and battery charge."
+    },
+    "specs": {
+      "power": "Total power",
+      "electricRange": "Electric range (WLTP)",
+      "combinedRange": "Combined range (WLTP)",
+      "battery": "Battery",
+      "consumption": "Weighted combined consumption",
+      "co2": "Weighted CO₂ emissions",
+      "length": "Length",
+      "width": "Width",
+      "height": "Height",
+      "wheelbase": "Wheelbase"
+    },
+    "cta": {
+      "title": "Start your LEPAS L6 PHEV experience",
+      "text": "Request an offer and a LEPAS Pitești consultant will call you with all the details: versions, price, financing and delivery."
+    }
+  },
+  "lepasL6Bev": {
+    "meta": {
+      "title": "LEPAS L6 BEV – 100% electric SUV",
+      "description": "The LEPAS L6 BEV at LEPAS Pitești: a fully electric SUV with up to 449 km of range (WLTP) and 30–80% fast charging in about 22 minutes."
+    },
+    "name": "LEPAS L6 BEV",
+    "eyebrow": "100% electric",
+    "subtitle": "The electric SUV of the LEPAS range: up to 449 km on one charge (WLTP) and from 30 to 80% in about 22 minutes.",
+    "actions": {
+      "offer": "Tell me when it arrives",
+      "otherVariant": "See the L6 PHEV"
+    },
+    "labels": {
+      "power": "Powertrain",
+      "exterior": "Exterior",
+      "interior": "Interior",
+      "experience": "Experience"
+    },
+    "exterior": {
+      "title": "Define your aesthetic"
+    },
+    "colors": {
+      "solarOrange": "Solar Orange",
+      "bambooGreen": "Bamboo Green",
+      "obsidianBlack": "Obsidian Black",
+      "champagneGold": "Champagne Gold",
+      "metallicSilver": "Metallic Silver",
+      "pearlWhite": "Pearl White"
+    },
+    "interior": {
+      "dashboard": "A digital cockpit built around the driver",
+      "front": "An airy front cabin",
+      "rear": "Room for everyone in the back"
+    },
+    "comfort": {
+      "title": "Elegant Comfort",
+      "text": "The Drive Your Elegance philosophy continues inside: materials that feel good, controls within easy reach and a calm atmosphere that makes any journey feel shorter.",
+      "connectedTitle": "Always connected",
+      "connectedText": "A generous central screen and digital instruments: navigation, phone and music are one gesture away, without taking your eyes off the road.",
+      "spaceTitle": "Space for everyone",
+      "spaceText": "Five genuinely usable seats, with generous head and knee room and storage designed for everyday things.",
+      "lastingTitle": "Comfort that lasts",
+      "lastingText": "Supportive seats, careful sound insulation and a suspension tuned for comfort – from the daily commute to holiday trips."
+    },
+    "gallery": {
+      "title": "LEPAS L6 in detail"
+    },
+    "power": {
+      "title": "Silence, instant torque and 449 km of freedom",
+      "text": "A 160 kW (217 hp) electric motor on the front axle and a 65 kWh LFP battery. No gears and no tailpipe emissions – just smooth acceleration and quiet.",
+      "highlight1": "DC fast charging at up to 120 kW: 30–80% in about 22 minutes",
+      "highlight2": "65 kWh LFP (lithium iron phosphate) battery",
+      "highlight3": "3.3 kW V2L function: power electrical devices straight from the car",
+      "footnote": "Figures announced by the manufacturer for European markets. The homologated values, equipment and price for Romania will be communicated by the importer; until then there may be differences."
+    },
+    "specs": {
+      "range": "Range (WLTP)",
+      "power": "Power",
+      "battery": "LFP battery",
+      "fastCharge": "Fast charging 30–80%",
+      "acceleration": "0–100 km/h",
+      "torque": "Torque"
+    },
+    "cta": {
+      "title": "Be the first to know when the L6 BEV arrives",
+      "text": "Leave us your details and we'll let you know as soon as we have the price and delivery date for Romania."
+    }
+  },
+  "lepasL4": {
+    "meta": {
+      "title": "LEPAS L4",
+      "description": "LEPAS L4 – the refined compact SUV for young drivers who want elegance and technology."
+    },
+    "name": "LEPAS L4",
+    "labels": {
+      "appearance": "Appearance",
+      "interior": "Interior"
+    }
+  }
+}

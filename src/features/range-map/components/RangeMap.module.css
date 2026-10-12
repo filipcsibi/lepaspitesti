@@ -1,0 +1,366 @@
+.section {
+  --accent: var(--color-accent);
+  position: relative;
+  display: grid;
+  grid-template-columns: 6.4rem minmax(0, 1fr);
+  gap: 0.8rem;
+  align-items: center;
+  padding: 1.3rem var(--page-gutter) 1.1rem;
+  color: var(--color-white);
+  background:
+    radial-gradient(60% 70% at 78% 52%, color-mix(in srgb, var(--accent) 13%, transparent), transparent 70%), #08090c;
+  overflow: hidden;
+  transition: background 0.6s ease;
+}
+
+.eyebrow {
+  font-size: var(--font-size-2);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  transition: color 0.5s ease;
+}
+
+.title {
+  margin-top: 0.16rem;
+  font-size: 0.56rem;
+  font-weight: 700;
+  line-height: 1.12;
+  text-wrap: balance;
+}
+
+.text {
+  margin-top: 0.22rem;
+  max-width: 5.4rem;
+  font-size: var(--font-size-3);
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.14rem;
+  margin-top: 0.42rem;
+}
+
+.tabs {
+  width: 100%;
+  height: 0.56rem;
+}
+
+.tabs button {
+  font-size: 0.17rem;
+  white-space: nowrap;
+}
+
+.tripTabs {
+  width: 3.2rem;
+}
+
+.readout {
+  margin-top: 0.42rem;
+}
+
+.range {
+  display: flex;
+  align-items: baseline;
+  gap: 0.1rem;
+  line-height: 1;
+}
+
+.rangeValue {
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+  color: var(--accent);
+  animation: value-in 0.6s var(--ease-out-expo) both;
+  transition: color 0.5s ease;
+}
+
+.rangeUnit {
+  font-size: 0.34rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.rangeCaption {
+  margin-top: 0.1rem;
+  font-size: var(--font-size-2);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.summary {
+  margin-top: 0.2rem;
+  font-size: var(--font-size-4);
+  font-weight: 500;
+}
+
+.cities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.08rem;
+  margin-top: 0.3rem;
+}
+
+.city {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.08rem;
+  height: 0.36rem;
+  padding: 0 0.14rem;
+  border-radius: 0;
+  font-size: 0.15rem;
+  color: rgba(255, 255, 255, 0.42);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+  transition:
+    color 0.4s ease,
+    box-shadow 0.4s ease,
+    background-color 0.4s ease;
+}
+
+.city small {
+  font-size: 0.86em;
+  opacity: 0.7;
+  font-variant-numeric: tabular-nums;
+}
+
+.cityDot {
+  width: 0.07rem;
+  height: 0.07rem;
+  border-radius: 50%;
+  background: currentColor;
+  transition: background-color 0.4s ease;
+}
+
+.cityOk {
+  color: var(--color-white);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 60%, transparent);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
+.cityOk .cityDot {
+  background: var(--accent);
+}
+
+.cityFocused {
+  box-shadow: inset 0 0 0 1px var(--color-white);
+}
+
+/* Map */
+.mapWrap {
+  min-width: 0;
+}
+
+.map {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* The ring can be larger than the country (and the map): clip it at the map's edge. */
+  overflow: hidden;
+}
+
+.country {
+  fill: rgba(255, 255, 255, 0.035);
+  stroke: rgba(255, 255, 255, 0.32);
+  stroke-width: 1.4;
+  stroke-linejoin: round;
+}
+
+.reach,
+.ring {
+  transition: r 1s var(--ease-out-expo);
+}
+
+.ring {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 1.6;
+  stroke-dasharray: 3 7;
+  stroke-linecap: round;
+  opacity: 0.75;
+  transition:
+    r 1s var(--ease-out-expo),
+    stroke 0.5s ease;
+}
+
+.route {
+  stroke: var(--accent);
+  stroke-width: 1;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.routeOk {
+  opacity: 0.22;
+}
+
+.routeFocused {
+  opacity: 0.95;
+  stroke-width: 1.8;
+}
+
+.place {
+  cursor: default;
+}
+
+.hit {
+  fill: transparent;
+}
+
+.dot {
+  fill: #08090c;
+  stroke: rgba(255, 255, 255, 0.4);
+  stroke-width: 1.4;
+  transition:
+    fill 0.4s ease,
+    stroke 0.4s ease;
+}
+
+.placeName {
+  font-size: 14px;
+  fill: rgba(255, 255, 255, 0.38);
+  transition: fill 0.4s ease;
+}
+
+.placeOk .dot {
+  fill: var(--accent);
+  stroke: var(--color-white);
+}
+
+.placeOk .placeName {
+  fill: var(--color-white);
+}
+
+.placeFocused .placeName {
+  fill: var(--color-white);
+  font-weight: 600;
+}
+
+.placeFocused .dot {
+  stroke: var(--color-white);
+  stroke-width: 2.4;
+}
+
+.originDot {
+  fill: var(--color-white);
+}
+
+.originPulse {
+  fill: none;
+  stroke: var(--color-white);
+  stroke-width: 1.5;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: pulse 2.4s ease-out infinite;
+}
+
+.originName {
+  font-size: 16px;
+  font-weight: 700;
+  fill: var(--color-white);
+}
+
+.footnote {
+  margin-top: 0.24rem;
+  font-size: 0.14rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  to {
+    transform: scale(3.4);
+    opacity: 0;
+  }
+}
+
+@keyframes value-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.2rem);
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.5rem;
+    padding: 1rem var(--page-gutter) 0.9rem;
+  }
+
+  .eyebrow {
+    font-size: 0.24rem;
+  }
+
+  .title {
+    font-size: 0.6rem;
+  }
+
+  .text {
+    max-width: none;
+    font-size: 0.28rem;
+  }
+
+  .tabs {
+    height: 0.84rem;
+  }
+
+  .tabs button {
+    font-size: 0.24rem;
+  }
+
+  .tripTabs {
+    width: 4.4rem;
+  }
+
+  .rangeValue {
+    font-size: 1.5rem;
+  }
+
+  .rangeUnit {
+    font-size: 0.4rem;
+  }
+
+  .rangeCaption {
+    font-size: 0.26rem;
+  }
+
+  .summary {
+    font-size: 0.3rem;
+  }
+
+  .cities {
+    gap: 0.12rem;
+  }
+
+  .city {
+    height: 0.6rem;
+    padding: 0 0.22rem;
+    font-size: 0.24rem;
+  }
+
+  .cityDot {
+    width: 0.1rem;
+    height: 0.1rem;
+  }
+
+  .placeName {
+    font-size: 25px;
+  }
+
+  .originName {
+    font-size: 28px;
+  }
+
+  .footnote {
+    font-size: 0.22rem;
+  }
+}

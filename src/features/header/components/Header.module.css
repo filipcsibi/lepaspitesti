@@ -1,0 +1,215 @@
+.header {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: var(--z-header);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  height: var(--header-height);
+  padding: 0 var(--page-gutter);
+  color: var(--color-white);
+  pointer-events: none;
+  transition:
+    height 0.5s var(--ease-in-out-power2),
+    padding 0.5s var(--ease-in-out-power2);
+}
+
+.header a,
+.header button {
+  pointer-events: auto;
+}
+
+/* Floating bar — hidden at the top, revealed once compact. */
+.bar {
+  --traseu-cut: 0.2rem;
+  --traseu-tint: rgba(18, 18, 20, 0.42);
+  position: absolute !important;
+  inset: 0.1rem calc(var(--page-gutter) - 0.24rem);
+  opacity: 0;
+  transform: translateY(-20%) scale(0.98);
+  transition:
+    opacity 0.5s var(--ease-out-power2),
+    transform 0.6s var(--ease-bounce);
+  pointer-events: none;
+}
+
+.header[data-compact] {
+  height: calc(var(--header-height-compact) + 0.2rem);
+}
+
+.header[data-compact] .bar {
+  opacity: 1;
+  transform: none;
+}
+
+.header[data-open] .bar {
+  opacity: 0;
+}
+
+.left {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  justify-self: start;
+}
+
+.home {
+  display: block;
+  width: 0.2rem;
+  height: 0.2rem;
+  color: var(--color-white);
+  transition: opacity 0.3s ease;
+}
+
+.home:hover {
+  opacity: 0.7;
+}
+
+.menuButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.1rem;
+  height: 0.4rem;
+  padding: 0 0.18rem 0 0.16rem;
+  font-size: 0.14rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.menuButton svg path {
+  transform-origin: 8px 8px;
+  transition:
+    transform 0.35s var(--ease-out-power2),
+    opacity 0.2s ease;
+}
+
+.menuButton svg[data-open="true"] path:nth-child(1) {
+  transform: translateY(4px) rotate(45deg);
+}
+
+.menuButton svg[data-open="true"] path:nth-child(2) {
+  opacity: 0;
+}
+
+.menuButton svg[data-open="true"] path:nth-child(3) {
+  transform: translateY(-4px) rotate(-45deg);
+}
+
+.logo {
+  position: relative;
+  display: block;
+  width: 1.87rem;
+  transition: opacity 0.3s ease;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.header[data-open] .logo,
+.header[data-hero-signature] .logo {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.right {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.14rem;
+  justify-self: end;
+  pointer-events: auto;
+}
+
+/* Shortcut to the contact page, always one tap away. */
+.contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.08rem;
+  height: 0.4rem;
+  padding: 0 0.18rem 0 0.14rem;
+  font-size: 0.14rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.contact svg,
+.contactLabel {
+  position: relative;
+  z-index: 2;
+}
+
+.header[data-open] .contact {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.keyline {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 16rem;
+  height: 1px;
+  background-color: rgba(221, 221, 221, 0.7);
+  transform: translateX(-50%);
+  transition: opacity 0.4s ease;
+}
+
+.header[data-compact] .keyline,
+.header[data-open] .keyline {
+  opacity: 0;
+}
+
+@media (max-width: 767px) {
+  .header {
+    height: 1.1rem;
+  }
+
+  .header[data-compact] {
+    height: 1.3rem;
+  }
+
+  .bar {
+    --traseu-cut: 0.24rem;
+    inset: 0.14rem 0.14rem;
+  }
+
+  .home {
+    width: 0.36rem;
+    height: 0.36rem;
+  }
+
+  .menuButton {
+    height: 0.6rem;
+    padding: 0 0.22rem;
+    font-size: 0.22rem;
+  }
+
+  .menuLabel,
+  .contactLabel {
+    display: none;
+  }
+
+  .right {
+    gap: 0.12rem;
+  }
+
+  .contact {
+    justify-content: center;
+    width: 0.6rem;
+    height: 0.6rem;
+    padding: 0;
+  }
+
+  .logo {
+    width: 2.2rem;
+  }
+
+  .keyline {
+    width: calc(100% - 0.6rem);
+  }
+}

@@ -1,0 +1,114 @@
+/*
+ * Traseu surface — the site's signature material.
+ *
+ * A flat graphite plate with two cut corners (top right, bottom left), drawn with a hairline.
+ * The cut corners are marked in the route colour, like waypoints on a map; on interactive
+ * surfaces the route line is traced around the whole edge on hover and focus.
+ * Pure CSS: no pointer tracking, so it behaves the same with a mouse, a finger or a keyboard.
+ *
+ * Tunables (set as inline CSS variables or in a parent rule):
+ *   --traseu-accent  colour of the route line (default: the site accent)
+ *   --traseu-tint    colour wash over the plate (default: none)
+ *   --traseu-base    the plate itself
+ *   --traseu-blur    blur of what is behind the plate
+ *   --traseu-cut     size of the cut corners; --traseu-cut-tr / --traseu-cut-bl set one corner (0px = square)
+ */
+.surface {
+  --_accent: var(--traseu-accent, var(--color-accent));
+  --_tint: var(--traseu-tint, transparent);
+  --_tr: var(--traseu-cut-tr, var(--traseu-cut, 0.12rem));
+  --_bl: var(--traseu-cut-bl, var(--traseu-cut, 0.12rem));
+  --_shape: polygon(
+    0 0,
+    calc(100% - var(--_tr)) 0,
+    100% var(--_tr),
+    100% 100%,
+    var(--_bl) 100%,
+    0 calc(100% - var(--_bl))
+  );
+  --traseu-p: 0%;
+  position: relative;
+  isolation: isolate;
+  transition:
+    --traseu-p 0.7s var(--ease-out-power2),
+    transform 0.3s var(--ease-out-power2);
+}
+
+/* The plate, under the content. */
+.surface::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(var(--_tint), var(--_tint)), var(--traseu-base, rgba(15, 17, 21, 0.88));
+  -webkit-backdrop-filter: blur(var(--traseu-blur, 8px));
+  backdrop-filter: blur(var(--traseu-blur, 8px));
+  clip-path: var(--_shape);
+  transition: box-shadow 0.4s var(--ease-out-power2);
+}
+
+/* The edge: a hairline, the two waypoints, and the route traced over it. */
+.surface::after {
+  --_t: 1px;
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    linear-gradient(225deg, var(--_accent) calc(var(--_tr) * 0.76), transparent 0),
+    linear-gradient(45deg, var(--_accent) calc(var(--_bl) * 0.76), transparent 0),
+    conic-gradient(from 62deg, var(--_accent) var(--traseu-p), transparent 0),
+    linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+  /* A frame: the plate's outline with the same outline, one hairline smaller, cut out of it. */
+  clip-path: polygon(
+    evenodd,
+    0 0,
+    calc(100% - var(--_tr)) 0,
+    100% var(--_tr),
+    100% 100%,
+    var(--_bl) 100%,
+    0 calc(100% - var(--_bl)),
+    0 0,
+    var(--_t) var(--_t),
+    calc(100% - var(--_tr) - var(--_t) * 0.41) var(--_t),
+    calc(100% - var(--_t)) calc(var(--_tr) + var(--_t) * 0.41),
+    calc(100% - var(--_t)) calc(100% - var(--_t)),
+    calc(var(--_bl) + var(--_t) * 0.41) calc(100% - var(--_t)),
+    var(--_t) calc(100% - var(--_bl) - var(--_t) * 0.41),
+    var(--_t) var(--_t)
+  );
+}
+
+.dark {
+  --traseu-base: rgba(6, 7, 9, 0.94);
+}
+
+.interactive {
+  cursor: pointer;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .interactive:hover {
+    --traseu-p: 100%;
+  }
+
+  .interactive:hover::before {
+    box-shadow: inset 0 0 0 100vmax color-mix(in srgb, var(--_accent) 16%, transparent);
+  }
+}
+
+/* The outline would be drawn square around a cut shape: trace the route instead. */
+.interactive:focus-visible {
+  --traseu-p: 100%;
+  outline: none;
+}
+
+.interactive:focus-visible::after {
+  --_t: 2px;
+}
+
+.interactive:active {
+  transform: scale(0.98);
+}

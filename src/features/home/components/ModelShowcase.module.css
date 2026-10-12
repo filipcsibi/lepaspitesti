@@ -1,0 +1,72 @@
+.panel {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #000;
+}
+
+.media {
+  position: absolute;
+  inset: 0;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 3.85rem;
+  height: auto;
+}
+
+.cta {
+  display: flex;
+  gap: 0.16rem;
+  margin-top: 0.22rem;
+}
+
+/*
+ * Phones: portrait artwork fills the screen with the logo and CTA over it;
+ * wide artwork is shown whole as a card, with the logo and CTA below it.
+ */
+@media (max-width: 767px) {
+  .panel[data-mobile="portrait"] {
+    height: var(--mobile-media-height);
+  }
+
+  .panel[data-mobile="portrait"] .content {
+    bottom: 0.9rem;
+  }
+
+  .panel[data-mobile="card"] {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .panel[data-mobile="card"] .media {
+    position: relative;
+    inset: auto;
+    aspect-ratio: 750 / 640;
+  }
+
+  .panel[data-mobile="card"] .content {
+    position: static;
+    padding: 0.4rem 0 0.7rem;
+  }
+
+  .logo {
+    width: 3.6rem;
+  }
+}

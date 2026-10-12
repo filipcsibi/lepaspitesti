@@ -1,0 +1,35 @@
+{
+  "eyebrow": "PHEV or BEV?",
+  "title": "Which L6 suits you?",
+  "text": "Tell us how you drive and we'll show you the right version – and what the energy would cost you each month.",
+  "inputs": {
+    "dailyKm": "How far you drive on a typical day",
+    "longTrips": "Long trips (over 300 km)",
+    "longTripsValue": "{count, plural, =0 {rarely or never} one {one a month} other {# a month}}",
+    "homeCharging": "Can you charge at home or at work?",
+    "yes": "Yes",
+    "no": "No",
+    "homeElectricity": "Electricity price at home",
+    "publicElectricity": "Price at public chargers",
+    "fuel": "Petrol price"
+  },
+  "rows": {
+    "bev": "L6 BEV",
+    "phev": "L6 PHEV",
+    "petrol": "Petrol SUV"
+  },
+  "result": {
+    "label": "Our recommendation",
+    "perMonth": "lei/month",
+    "saving": "About {amount} lei saved per year compared with a petrol SUV.",
+    "discover": "Discover the L6 {variant}",
+    "offer": "Request an offer"
+  },
+  "reasons": {
+    "allElectric": "Your {dailyKm} km a day fit {times} times into a single charge, and at home you leave every morning with a full battery.",
+    "noHomeCharging": "Without charging at home, the PHEV stays efficient as a hybrid and you refuel as quickly as you do today.",
+    "longTrips": "With frequent long trips, the 1,058 km combined range spares you planning your stops. In the city, you drive electric {share}% of the day.",
+    "dailyBeyondRange": "At {dailyKm} km a day, the PHEV gives you the freedom not to depend on charging, with up to 1,058 km of combined range."
+  },
+  "footnote": "Indicative calculation for everyday driving (30 days a month), based on WLTP consumption: L6 PHEV 14.8 kWh/100 km electric and 5.9 l/100 km with a depleted battery; L6 BEV about 14.5 kWh/100 km (estimated from battery capacity and range until the homologated value is published); reference petrol SUV 7.5 l/100 km. Prices are indicative – adjust them to your own tariffs. Real costs differ."
+}

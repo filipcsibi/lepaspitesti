@@ -1,0 +1,61 @@
+.wrapper {
+  background: linear-gradient(#0c111e 0 1.3rem, var(--color-white) 1.3rem);
+}
+
+.page {
+  width: min(12rem, 92%);
+  margin: 0 auto;
+  padding: 2rem 0 1.2rem;
+  font-size: var(--font-size-2);
+  line-height: 1.8;
+  color: #333;
+}
+
+.notice {
+  margin-bottom: 0.4rem;
+  padding: 0.16rem 0.24rem;
+  border-left: 3px solid var(--color-accent);
+  background: #faf6ef;
+  font-size: var(--font-size-1);
+}
+
+.body h1 {
+  margin-bottom: 0.5rem;
+  font-size: var(--font-size-12);
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--color-black);
+}
+
+.body h2 {
+  margin: 0.5rem 0 0.2rem;
+  font-size: var(--font-size-5);
+  font-weight: 600;
+  color: var(--color-black);
+}
+
+.body p,
+.body ul {
+  margin-bottom: 0.2rem;
+}
+
+.body ul {
+  padding-left: 0.3rem;
+  list-style: disc;
+}
+
+.body a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  word-break: break-word;
+}
+
+.actions {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  .page {
+    padding-top: 1.8rem;
+  }
+}

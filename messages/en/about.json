@@ -1,0 +1,62 @@
+{
+  "introduction": {
+    "meta": {
+      "title": "Brand Introduction",
+      "description": "LEPAS – born for the masters of balance. Discover the story and philosophy behind the brand: elegance is power."
+    },
+    "title": "Brand Introduction",
+    "scrollHint": "Explore",
+    "chapters": {
+      "city": {
+        "title": "The city is more than steel and speed,\nit's a stage for dreams, beauty,\nand bold self-expression.",
+        "text": "In this urban jungle shaped by ambition and acceleration, a new generation of explorers is rising. They are independent and courageous, yet not lacking in flexibility. They pursue efficiency as well as beauty. They replace extravagance with refinement, and redefine power with elegance."
+      },
+      "balance": {
+        "title": "LEPAS was born for these\nmasters of balance—for those who\ncommand life with taste, intention,\nand elegant strength.",
+        "text": "As the forward-looking brand under Chery's global strategy, LEPAS carries a brand-new imagination for the future of mobility. Inspired by the “Leopard Beauty Aesthetics”, it transforms the most agile lines of nature into dynamic, expressive design. Every curve is poised with latent energy, and every detail is elegant and powerful.\n\nWe refuse to roughly pile up luxury and performance, and do not cater to the cold sense of machinery. Through the fusion of intelligent technology and a global self-developed platform, LEPAS comfortably handles multi-scenario travel, creating a new philosophy of “elegance is power” – not relying on hype to attract attention, but mastering the main stage of life with an exquisite core."
+      },
+      "art": {
+        "title": "To LEPAS, driving is not about domination,\nbut an art form for expressing personality\nand taste in life.",
+        "text": "LEPAS is not a vehicle “for rushing”; it is a mobile living space – an “exquisite space” that balances the pace of work and inner order. It knows how to leave blank space and also understands efficiency. It reserves consideration for “her” and also reserves driving pleasure for “him”.\n\nFrom the styling center of Europe to the R&D frontier of Shanghai, LEPAS, with its global aesthetic vision and intelligent platform capabilities, provides urban elites with the complete care of an “exquisite third space”."
+      },
+      "symbol": {
+        "title": "LEPAS, a symbol of exquisite living.",
+        "text": "More than a vehicle, LEPAS is a lifestyle signature. It's the spirit to stay composed in chaos, elegant in motion, powerful in silence. For every Urban Hunter of Elegance, it becomes a personal emblem.\n\nFind your rhythm between fast and slow. Balance strength with beauty. Move gently, even through the steel jungle."
+      }
+    },
+    "finale": "Drive Your Elegance"
+  },
+  "brandValues": {
+    "meta": {
+      "title": "Brand Values",
+      "description": "Leopard Beauty Aesthetics, Humanistic Technology, Exploration and Sustainable Refinement – the four values that define LEPAS."
+    },
+    "title": "Brand Values",
+    "values": {
+      "aesthetics": {
+        "name": "Leopard Beauty\nAesthetics",
+        "slogan": "Leopard Beauty Aesthetics",
+        "title": "Beauty is power\nelegance is attitude",
+        "text": "Inspired by the agile posture and natural curves of the leopard, LEPAS combines speed and tension with flowing lines to create a vehicle design that is both visually striking and elegant, emphasizing the aesthetics of “flexible power”.\n\n“Leopard Beauty” is not only a styling language, but also an attitude: bold, confident, reserved yet with flair, elegant without losing its sharpness. Through the empowerment of aesthetics, LEPAS hopes to awaken users' desire for “refinement” and “self-expression”."
+      },
+      "technology": {
+        "name": "Humanistic\nTechnology",
+        "slogan": "Humanistic Technology",
+        "title": "Technology has warmth\nand intelligence is for people",
+        "text": "LEPAS firmly believes that the true value of technology does not lie in piling up parameters, but in making every trip more reassuring, more pleasant and closer to people's hearts.\n\nTaking the users' emotions and lives as the core, we build a diversified life-scene experience with an intelligent safety system, an exquisite third space and an all-scenario super platform – responding to every user's delicate needs with technology, and making exquisite travel a gentle companion in daily life and an engine of personal evolution."
+      },
+      "exploration": {
+        "name": "Exploration",
+        "slogan": "Exploration",
+        "title": "Everyone deserves to\nbe in the driver's seat",
+        "text": "LEPAS believes that every user deserves to be treated equally and has the right to express themselves and define their lives. We advocate a brand spirit of no prejudice and no boundaries, and are committed to creating an open and inclusive stage of exquisite travel for users with diverse backgrounds and lifestyles.\n\nHere, every voice is heard, and exploration is no longer the privilege of a few. Every moment you hold the steering wheel, you are responding independently to the world – a courageous departure towards a greater space in life."
+      },
+      "sustainability": {
+        "name": "Sustainable\nRefinement",
+        "slogan": "Sustainable Refinement",
+        "title": "Beauty with responsibility\nLess is more",
+        "text": "LEPAS advocates a refinement that does not come at the expense of the future. We believe that true refinement does not lie in accumulation, but in moderation, measure and conscious choice. From eco-friendly materials to lightweight design, from energy efficiency to recyclable systems, we use systematic sustainable design to build full life-cycle responsibility into each vehicle.\n\nFor LEPAS, refinement is not only about sight and touch, but also a gentle and firm philosophy of life – less is more, beauty is responsibility, and changing the world can also happen quietly and gracefully."
+      }
+    }
+  }
+}

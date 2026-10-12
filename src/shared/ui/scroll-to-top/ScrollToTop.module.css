@@ -1,0 +1,43 @@
+.button {
+  --traseu-tint: rgba(30, 30, 30, 0.18);
+  position: fixed !important;
+  right: 0.24rem;
+  bottom: 1.2rem;
+  z-index: var(--z-float);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.54rem;
+  height: 0.54rem;
+  padding: 0.15rem;
+  color: var(--color-white);
+  opacity: 0;
+  visibility: hidden;
+  translate: 0 0.2rem;
+  transition:
+    opacity 0.5s ease,
+    visibility 0.5s,
+    translate 0.5s var(--ease-bounce),
+    transform 0.4s var(--ease-bounce);
+}
+
+.button[data-visible] {
+  opacity: 1;
+  visibility: visible;
+  translate: 0 0;
+}
+
+.button svg {
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 767px) {
+  .button {
+    right: 0.3rem;
+    bottom: 0.6rem;
+    width: 0.9rem;
+    height: 0.9rem;
+    padding: 0.24rem;
+  }
+}

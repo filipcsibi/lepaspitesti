@@ -1,0 +1,30 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  min-height: 100vh;
+  padding: 1.4rem 0.3rem 0.8rem;
+  background: #1a1a1a url("/media/shared/bg.png") center / cover no-repeat;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.picture {
+  width: 3rem;
+  height: auto;
+}
+
+.code {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.text {
+  margin-bottom: 0.3rem;
+  font-size: var(--font-size-3);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}

@@ -1,0 +1,9 @@
+{
+  "documents": {
+    "legal": "Legal Notice",
+    "privacy": "Privacy Statement",
+    "cookies": "Cookies Policy"
+  },
+  "fallbackNotice": "This document is currently only available in Romanian.",
+  "openCookieSettings": "Open cookie settings"
+}

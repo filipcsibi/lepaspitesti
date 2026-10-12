@@ -1,0 +1,247 @@
+.root {
+  --panel-width: 8.36rem;
+  --dur: 0.5s;
+  position: fixed;
+  inset: 0;
+  z-index: calc(var(--z-header) - 1);
+  display: flex;
+  visibility: hidden;
+  transition: visibility 0s linear 0.9s;
+}
+
+.root[data-open] {
+  visibility: visible;
+  transition-delay: 0s;
+}
+
+/* Frosted veil over the rest of the page (brand guide p.15). */
+.backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(20, 20, 20, 0.25);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  backdrop-filter: blur(14px) saturate(140%);
+  opacity: 0;
+  transition: opacity 0.5s var(--ease-out-power2);
+}
+
+.root[data-open] .backdrop {
+  opacity: 1;
+}
+
+.panel {
+  --traseu-cut-tr: 0.4rem;
+  --traseu-cut-bl: 0px;
+  --traseu-tint: rgba(10, 10, 10, 0.3);
+  --traseu-blur: 22px;
+  position: relative;
+  z-index: 2;
+  width: var(--panel-width);
+  height: 100%;
+  overflow: hidden;
+  transform: translateX(-101%);
+  transition: transform var(--dur) var(--ease-out-power2) 0.25s;
+}
+
+.root[data-open] .panel {
+  transform: none;
+  transition-delay: 0s;
+}
+
+.panelImage {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.panelImage.visible {
+  opacity: 1;
+}
+
+.list {
+  position: absolute;
+  top: 2.48rem;
+  right: 1.44rem;
+  z-index: 2;
+  text-align: right;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 0.76rem;
+  font-size: 0.18rem;
+  color: var(--color-white);
+  opacity: 0;
+  transform: translateX(-100%);
+  transition:
+    opacity 0.5s var(--ease-out-power2),
+    transform 0.5s var(--ease-out-power2);
+}
+
+.item span {
+  opacity: 0.55;
+  transition: opacity 0.3s ease;
+}
+
+.item:hover span,
+.item:focus-visible span,
+.item.on span {
+  opacity: 1;
+}
+
+/* Level 1 staggers in once the panel is open. */
+.root[data-open] .level1 .item {
+  opacity: 1;
+  transform: none;
+  transition-delay: calc(0.35s + var(--i) * 0.12s);
+}
+
+.level1.away .item {
+  opacity: 0 !important;
+  transform: translateX(60%) !important;
+  transition-delay: 0s !important;
+  pointer-events: none;
+}
+
+.level2 {
+  visibility: hidden;
+}
+
+.level2.current {
+  visibility: visible;
+}
+
+.level2.current .item {
+  opacity: 1;
+  transform: none;
+  transition-delay: calc(0.15s + var(--i) * 0.08s);
+}
+
+.back {
+  margin-bottom: 0.2rem;
+  gap: 0.42rem;
+}
+
+.back span {
+  opacity: 1;
+}
+
+.card {
+  flex-direction: column;
+}
+
+.cardImage {
+  display: none;
+}
+
+/* Right side preview (desktop, models). */
+.preview {
+  position: relative;
+  z-index: 1;
+  width: 10.9rem;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition:
+    transform var(--dur) var(--ease-out-power2),
+    opacity 0.3s ease;
+}
+
+.root[data-models] .preview {
+  transform: none;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.previewItem {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.5s ease,
+    visibility 0.5s;
+}
+
+.previewItem.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.previewItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.previewCta {
+  position: absolute !important;
+  bottom: 0.86rem;
+  left: 50%;
+  translate: -50% 0;
+}
+
+@media (max-width: 767px) {
+  .panel {
+    --traseu-cut-tr: 0px;
+    width: 100%;
+  }
+
+  .preview {
+    display: none;
+  }
+
+  .list {
+    top: 1.6rem;
+    right: 1rem;
+  }
+
+  .item {
+    height: 1rem;
+    font-size: 0.3rem;
+  }
+
+  .level2 .item {
+    font-size: 0.26rem;
+  }
+
+  .carLevel {
+    top: 1.4rem;
+    left: 50%;
+    right: auto;
+    width: 90%;
+    transform: translateX(-50%);
+  }
+
+  .carLevel .card {
+    position: relative;
+    display: block;
+    height: auto;
+    margin-bottom: 0.4rem;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .carLevel .cardImage {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .carLevel .card span {
+    position: absolute;
+    right: 0.24rem;
+    bottom: 0.16rem;
+    opacity: 1;
+    font-size: 0.3rem;
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "siteName": "LEPAS Pitești",
+    "defaultTitle": "LEPAS Pitești – Drive Your Elegance",
+    "defaultDescription": "Site-ul oficial LEPAS în Pitești. Descoperă LEPAS L8, LEPAS L6 PHEV, LEPAS L6 BEV și LEPAS L4 – eleganță, tehnologie și rafinament."
+  },
+  "actions": {
+    "discoverMore": "Descoperă mai mult",
+    "backToHome": "Înapoi acasă",
+    "close": "Închide",
+    "previous": "Anterior",
+    "next": "Următor",
+    "play": "Redă video",
+    "scrollToTop": "Înapoi sus"
+  },
+  "nav": {
+    "menu": "Meniu",
+    "close": "Închide",
+    "home": "Acasă",
+    "back": "Înapoi",
+    "language": "Limbă",
+    "groups": {
+      "models": "Modele",
+      "about": "Despre LEPAS",
+      "contact": "Contact"
+    },
+    "links": {
+      "lepasL8": "LEPAS L8",
+      "lepasL6Phev": "LEPAS L6 PHEV",
+      "lepasL6Bev": "LEPAS L6 BEV",
+      "lepasL4": "LEPAS L4",
+      "introduction": "Introducere",
+      "brandValues": "Valorile brandului",
+      "legal": "Termeni și condiții",
+      "privacy": "Politica de confidențialitate",
+      "cookies": "Politica de cookie-uri",
+      "contact": "Showroom și contact"
+    }
+  },
+  "footer": {
+    "social": "Urmărește-ne",
+    "copyright": "© {year} LEPAS Pitești. Toate drepturile rezervate."
+  },
+  "cookies": {
+    "bannerTitle": "Despre cookie-urile de pe acest site",
+    "bannerText": "Folosim cookie-uri pentru a analiza utilizarea site-ului și pentru a ne îmbunătăți site-ul și serviciile. Apasă „Setări cookie-uri” pentru a-ți gestiona preferințele. Pentru mai multe informații, citește",
+    "policyLink": "Politica de cookies",
+    "acceptAll": "Acceptă toate",
+    "rejectAll": "Respinge toate",
+    "settings": "Setări cookie-uri",
+    "save": "Salvează preferințele",
+    "centerTitle": "Centrul de preferințe privind confidențialitatea",
+    "centerText": "Plasăm cookie-uri pentru a ne asigura că site-ul funcționează corect și pentru a-ți îmbunătăți experiența de navigare. Cookie-urile ne ajută să analizăm traficul și să înțelegem cum ne-ai găsit. Poți afla mai multe în",
+    "manage": "Gestionează preferințele de consimțământ",
+    "necessary": {
+      "title": "Cookie-uri strict necesare",
+      "text": "Sunt esențiale pentru funcționarea site-ului (de exemplu, memorarea alegerilor tale privind cookie-urile) și nu pot fi dezactivate.",
+      "alwaysOn": "Întotdeauna active"
+    },
+    "analytics": {
+      "title": "Cookie-uri de analiză",
+      "text": "Folosim Google Analytics pentru a plasa și citi cookie-uri în scopurile de mai sus. Am configurat Google Analytics pentru a-ți proteja confidențialitatea: ultimul octet al adresei IP este anonimizat și partajarea datelor cu Google este dezactivată."
+    },
+    "marketing": {
+      "title": "Cookie-uri de marketing",
+      "text": "Ne ajută să măsurăm eficiența reclamelor noastre (Meta, Google) și să îți arătăm oferte relevante. Fără ele, vei vedea în continuare reclame, dar mai puțin potrivite pentru tine."
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "text": "Pagina nu a fost găsită"
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "header": {
+    "call": "Call us"
+  },
+  "form": {
+    "name": "Full name",
+    "namePlaceholder": "e.g. Andrei Popescu",
+    "phone": "Phone",
+    "phonePlaceholder": "07xx xxx xxx",
+    "email": "E-mail",
+    "optional": "optional",
+    "emailPlaceholder": "name@example.com",
+    "model": "Model",
+    "comingSoon": "coming soon",
+    "timeframe": "When would you like to come?",
+    "timeframes": {
+      "asap": "As soon as possible",
+      "week": "This week",
+      "month": "This month",
+      "research": "Just researching"
+    },
+    "tradeIn": "I have a car I'd like to trade in",
+    "consent": "I agree to be contacted by LEPAS Pitești about my request. I have read the <privacy>Privacy Statement</privacy>.",
+    "submitting": "Sending…",
+    "reassurance": "No spam. We only use your details for this request.",
+    "errors": {
+      "name": "Please tell us your name.",
+      "phone": "Enter a valid phone number (e.g. 0722 123 456).",
+      "email": "Enter a valid e-mail address.",
+      "consent": "We need your consent to be able to contact you.",
+      "generic": "We couldn't send your request. Please try again or call us."
+    },
+    "preorder": "pre-order"
+  },
+  "price": {
+    "from": "from",
+    "vat": "incl. VAT",
+    "launch": "Launch price",
+    "list": "List price",
+    "save": "You save {amount}"
+  },
+  "showroom": {
+    "title": "See you at LEPAS Pitești",
+    "text": "The LEPAS showroom in Pitești: come and see the models and talk to a consultant.",
+    "directions": "View on map",
+    "hours": "Opening hours"
+  },
+  "faq": {
+    "title": "Frequently asked questions"
+  },
+  "footnote": "Figures communicated by the manufacturer; they may vary by version, equipment and conditions of use. Prices include VAT and may change without notice.",
+  "thanks": {
+    "metaTitle": "Thank you – your request has been sent",
+    "title": "Thank you! We've received your request.",
+    "text": "A LEPAS Pitești consultant will call you to agree on the next steps.",
+    "nextTitle": "What happens next",
+    "next": [
+      "We call you on the number you left in the form.",
+      "We answer all your questions.",
+      "We agree on when you visit the showroom."
+    ],
+    "discover": "Discover LEPAS L8",
+    "home": "Back to the site"
+  },
+  "models": {
+    "lepasL8": {
+      "meta": {
+        "title": "Test drive the LEPAS L8 in Pitești – book online",
+        "description": "Drive the new LEPAS L8: a 278 hp plug-in hybrid SUV with up to 1,040 km combined range. Free test drive at the LEPAS Pitești showroom. From €42,500 incl. VAT."
+      },
+      "eyebrow": "Official launch in Romania · Pitești showroom",
+      "title": "Book a test drive in the new LEPAS L8",
+      "subtitle": "A 278 hp plug-in hybrid SUV with up to 1,040 km combined range. Come and drive it in Pitești.",
+      "cta": "Book a test drive",
+      "form": {
+        "title": "Book your test drive",
+        "subtitle": "Takes 30 seconds. Free, no obligation.",
+        "submit": "Book a test drive"
+      },
+      "trust": ["Free, with no obligation", "We call you to book it", "You pick the day and time"],
+      "stats": [
+        {
+          "value": "278 hp",
+          "label": "total power"
+        },
+        {
+          "value": "1,040 km",
+          "label": "combined range"
+        },
+        {
+          "value": "2.0 l/100 km",
+          "label": "combined consumption"
+        },
+        {
+          "value": "18.4 kWh",
+          "label": "battery"
+        }
+      ],
+      "reasonsTitle": "Why drive the LEPAS L8",
+      "reasons": [
+        {
+          "title": "Leopard-inspired design",
+          "text": "Flowing lines, “leopard-eye” headlights and full-width LED taillights. A presence that stands out."
+        },
+        {
+          "title": "An interior like a third space",
+          "text": "Digital cockpit, velvety materials and generous room for the whole family."
+        },
+        {
+          "title": "Super Hybrid plug-in",
+          "text": "Electric in town, carefree on long trips: up to 1,040 km on one tank and one charge."
+        },
+        {
+          "title": "Technology that helps",
+          "text": "360° view with transparent chassis and remote control from your phone."
+        }
+      ],
+      "galleryTitle": "LEPAS L8 in pictures",
+      "offerTitle": "Launch offer",
+      "offerText": "Available in Essence and Elegance versions.",
+      "details": "See all L8 details",
+      "steps": {
+        "title": "How it works",
+        "items": [
+          {
+            "title": "Fill in the form",
+            "text": "Name, phone and e-mail – that's it."
+          },
+          {
+            "title": "We call to set a time",
+            "text": "A LEPAS Pitești consultant contacts you to book it."
+          },
+          {
+            "title": "Come and drive",
+            "text": "Bring your driving licence. We prepare the rest."
+          }
+        ]
+      },
+      "faq": [
+        {
+          "q": "How much does a test drive cost?",
+          "a": "Nothing. The test drive is free and comes with no obligation."
+        },
+        {
+          "q": "How long does it take?",
+          "a": "Around 30–45 minutes, including the walk-around."
+        },
+        {
+          "q": "What do I need to bring?",
+          "a": "A valid driving licence and an ID."
+        },
+        {
+          "q": "When can I come?",
+          "a": "We agree on the day and time that suit you, over the phone."
+        },
+        {
+          "q": "Can I also ask about financing or my current car?",
+          "a": "Yes. The consultant can walk you through financing options and value your car if you'd like to trade it in."
+        }
+      ],
+      "finalCta": {
+        "title": "Ready to drive it?",
+        "text": "Fill in the form and we'll call you."
+      }
+    },
+    "lepasL6": {
+      "meta": {
+        "title": "LEPAS L6 – pre-order at the launch price in Pitești",
+        "description": "The new LEPAS L6: a 279 hp compact plug-in hybrid SUV with up to 92 km electric and 1,058 km combined range (WLTP). Launch price €35,990 incl. VAT at LEPAS Pitești."
+      },
+      "eyebrow": "Pre-orders open · until 30 November 2026",
+      "title": "The new LEPAS L6, at the launch price",
+      "subtitle": "A 279 hp compact plug-in hybrid SUV with up to 92 km electric and 1,058 km combined range. Ask LEPAS Pitești for the offer.",
+      "cta": "Get the launch offer",
+      "form": {
+        "title": "Get the LEPAS L6 offer",
+        "subtitle": "Takes 30 seconds. No obligation.",
+        "submit": "Get the launch offer"
+      },
+      "trust": ["No obligation", "We call you with all the details", "Launch price until 30 November"],
+      "stats": [
+        {
+          "value": "279 hp",
+          "label": "total power"
+        },
+        {
+          "value": "92 km",
+          "label": "electric range (WLTP)"
+        },
+        {
+          "value": "1,058 km",
+          "label": "combined range (WLTP)"
+        },
+        {
+          "value": "18.4 kWh",
+          "label": "battery"
+        }
+      ],
+      "reasonsTitle": "Why the LEPAS L6",
+      "reasons": [
+        {
+          "title": "Electric every day",
+          "text": "Up to 92 km on electricity alone (WLTP) – enough for everyday city driving without petrol."
+        },
+        {
+          "title": "Carefree on long trips",
+          "text": "Up to 1,058 km combined range (WLTP) on one tank and one charge."
+        },
+        {
+          "title": "279 hp plug-in hybrid",
+          "text": "A 1.5 turbo petrol engine backed by an electric system with an 18.4 kWh battery."
+        },
+        {
+          "title": "Compact format",
+          "text": "About 4.5 m long with a 2.7 m wheelbase: easy to drive in town, with room for the family."
+        }
+      ],
+      "galleryTitle": "LEPAS L6 in pictures",
+      "offerTitle": "Pre-order offer",
+      "offerText": "Elegance version. Price valid for pre-orders between 6 October and 30 November 2026, with a €1,000 deposit.",
+      "details": "",
+      "steps": {
+        "title": "How it works",
+        "items": [
+          {
+            "title": "Fill in the form",
+            "text": "Name, phone and e-mail – that's it."
+          },
+          {
+            "title": "We call you with the offer",
+            "text": "A LEPAS Pitești consultant walks you through the launch offer and the pre-order steps."
+          },
+          {
+            "title": "You decide",
+            "text": "If you like it, you reserve your car at the launch price. If not, it costs you nothing."
+          }
+        ]
+      },
+      "faq": [
+        {
+          "q": "How much is the LEPAS L6?",
+          "a": "The launch price is €35,990 incl. VAT, against a list price of €39,990 incl. VAT, for the Elegance version."
+        },
+        {
+          "q": "Until when is the launch price valid?",
+          "a": "For pre-orders placed between 6 October and 30 November 2026."
+        },
+        {
+          "q": "What does pre-ordering involve?",
+          "a": "A €1,000 deposit. The LEPAS Pitești consultant gives you all the details before you decide."
+        },
+        {
+          "q": "Am I committing to anything by sending the form?",
+          "a": "No. The form is only a request for an offer – we call you, answer your questions and you decide."
+        },
+        {
+          "q": "Can I also ask about financing or my current car?",
+          "a": "Yes. The consultant can walk you through financing options and value your car if you'd like to trade it in."
+        }
+      ],
+      "finalCta": {
+        "title": "Catch the launch price",
+        "text": "Fill in the form and we'll call you with the offer."
+      }
+    }
+  }
+}

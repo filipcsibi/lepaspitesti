@@ -1,0 +1,266 @@
+.section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background: #0c111e var(--bg) center / cover no-repeat;
+  color: var(--color-white);
+}
+
+.picture {
+  position: absolute;
+  inset: 0;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.label {
+  position: absolute;
+  top: 1.64rem;
+  left: 1.5rem;
+  z-index: 2;
+}
+
+.stages {
+  position: absolute;
+  top: 2.5rem;
+  left: 1.5rem;
+  z-index: 2;
+  width: 40%;
+}
+
+.stage {
+  font-size: var(--font-size-12);
+  font-weight: 700;
+  line-height: 1.4;
+  white-space: pre-line;
+}
+
+.stage1 {
+  position: relative;
+}
+
+.stage2,
+.stage3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.features {
+  position: absolute;
+  top: 4.4rem;
+  left: 1.5rem;
+  z-index: 2;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 0.14rem;
+  margin: 0.1rem 0;
+  font-size: var(--font-size-2);
+  color: var(--color-gray-dcdcde);
+  opacity: 0;
+}
+
+.icon {
+  width: 0.25rem;
+  height: 0.25rem;
+  object-fit: contain;
+}
+
+.specs {
+  position: absolute;
+  top: 86vh;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+.specs > div {
+  width: 25%;
+}
+
+.efficiency {
+  position: absolute;
+  left: 4.84rem;
+  bottom: 1.4rem;
+  z-index: 2;
+  width: 12.36rem;
+  height: 4.4rem;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.efficiencyTrack {
+  display: flex;
+  height: 100%;
+}
+
+.efficiencyItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 6.18rem;
+  flex-shrink: 0;
+  height: 100%;
+}
+
+.efficiencyItem img {
+  width: 96%;
+  min-height: 0;
+  flex: 1;
+  object-fit: contain;
+}
+
+.metric {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.3rem;
+  padding-left: 0.36rem;
+  font-size: var(--font-size-2);
+}
+
+.metric::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 1px;
+  height: 0.74rem;
+  background: var(--color-white);
+  translate: 0 -50%;
+}
+
+.metricTitle {
+  margin-bottom: 0.06rem;
+}
+
+.metricValue {
+  font-size: 0.26rem;
+  font-weight: 700;
+  color: var(--color-gray-dcdcde);
+  font-variant-numeric: tabular-nums;
+}
+
+/*
+ * Phones: no pinned animation — the three stages are stacked.
+ * Row 1 is the artwork with the headline on top and the range figures at the bottom.
+ */
+@media (max-width: 767px) {
+  .section {
+    display: grid;
+    grid-template-columns: 100%;
+    height: auto;
+    padding-bottom: 0.9rem;
+    background: #0c111e;
+  }
+
+  .picture {
+    position: relative;
+    inset: auto;
+    grid-area: 1 / 1;
+    height: var(--mobile-media-height);
+  }
+
+  .label {
+    position: relative;
+    top: auto;
+    left: auto;
+    grid-area: 1 / 1;
+    align-self: start;
+    justify-self: start;
+    margin: 1.4rem 0 0 0.6rem;
+  }
+
+  .stages {
+    display: contents;
+  }
+
+  .stage {
+    position: relative;
+    z-index: 2;
+    margin: 0 0.6rem;
+    opacity: 1;
+  }
+
+  .stage1 {
+    grid-area: 1 / 1;
+    align-self: start;
+    margin-top: 2.3rem;
+  }
+
+  .specs {
+    position: relative;
+    top: auto;
+    grid-area: 1 / 1;
+    align-self: end;
+    margin-bottom: 0.6rem;
+  }
+
+  .specs > div {
+    width: auto;
+    flex: 1;
+  }
+
+  .stage2 {
+    grid-row: 2;
+    margin-top: 0.9rem;
+  }
+
+  .features {
+    position: static;
+    grid-row: 3;
+    margin: 0.3rem 0.6rem 0;
+  }
+
+  .feature {
+    margin: 0.22rem 0;
+    opacity: 1;
+  }
+
+  .icon {
+    width: 0.44rem;
+    height: 0.44rem;
+  }
+
+  .stage3 {
+    grid-row: 4;
+    margin-top: 0.9rem;
+  }
+
+  .efficiency {
+    position: static;
+    grid-row: 5;
+    width: auto;
+    height: auto;
+    margin: 0.4rem 0.6rem 0;
+    opacity: 1;
+  }
+
+  .efficiencyTrack {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .efficiencyItem {
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    gap: 0.3rem;
+  }
+
+  .efficiencyItem img {
+    flex: none;
+    width: 45%;
+    height: auto;
+  }
+
+  .metric {
+    margin-top: 0;
+  }
+}

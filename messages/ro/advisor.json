@@ -1,0 +1,35 @@
+{
+  "eyebrow": "PHEV sau BEV?",
+  "title": "Care L6 ți se potrivește?",
+  "text": "Spune-ne cum conduci și îți arătăm versiunea potrivită – și cât te-ar costa energia în fiecare lună.",
+  "inputs": {
+    "dailyKm": "Cât conduci într-o zi obișnuită",
+    "longTrips": "Drumuri lungi (peste 300 km)",
+    "longTripsValue": "{count, plural, =0 {rar sau deloc} one {unul pe lună} few {# pe lună} other {# pe lună}}",
+    "homeCharging": "Poți încărca acasă sau la birou?",
+    "yes": "Da",
+    "no": "Nu",
+    "homeElectricity": "Preț energie electrică acasă",
+    "publicElectricity": "Preț la stații publice",
+    "fuel": "Preț benzină"
+  },
+  "rows": {
+    "bev": "L6 BEV",
+    "phev": "L6 PHEV",
+    "petrol": "SUV pe benzină"
+  },
+  "result": {
+    "label": "Recomandarea noastră",
+    "perMonth": "lei/lună",
+    "saving": "Aproximativ {amount} lei economisiți pe an față de un SUV pe benzină.",
+    "discover": "Descoperă L6 {variant}",
+    "offer": "Cere o ofertă"
+  },
+  "reasons": {
+    "allElectric": "Cei {dailyKm} km zilnici încap de {times} ori într-o singură încărcare, iar acasă pleci în fiecare dimineață cu bateria plină.",
+    "noHomeCharging": "Fără încărcare acasă, PHEV-ul rămâne eficient ca hibrid și alimentezi la fel de rapid ca până acum.",
+    "longTrips": "Cu drumuri lungi dese, cei 1.058 km de autonomie combinată te scutesc de planificarea opririlor. În oraș, mergi electric în {share}% din zi.",
+    "dailyBeyondRange": "La {dailyKm} km pe zi, PHEV-ul îți dă libertatea de a nu depinde de încărcare, cu până la 1.058 km autonomie combinată."
+  },
+  "footnote": "Calcul orientativ pentru condusul de zi cu zi (30 de zile pe lună), pe baza consumurilor WLTP: L6 PHEV 14,8 kWh/100 km electric și 5,9 l/100 km cu bateria descărcată; L6 BEV aproximativ 14,5 kWh/100 km (estimare din capacitatea bateriei și autonomie, până la publicarea valorii omologate); SUV pe benzină de referință 7,5 l/100 km. Prețurile sunt orientative – modifică-le după tarifele tale. Costurile reale diferă."
+}

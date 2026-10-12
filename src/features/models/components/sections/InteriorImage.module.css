@@ -1,0 +1,28 @@
+.section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background: #000;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.label {
+  position: absolute;
+  top: 1.64rem;
+  left: 1.5rem;
+  z-index: 2;
+}
+
+@media (max-width: 767px) {
+  .section {
+    height: var(--mobile-media-height);
+  }
+
+  .label {
+    top: 1.4rem;
+    left: 0.78rem;
+  }
+}

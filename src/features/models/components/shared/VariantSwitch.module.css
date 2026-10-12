@@ -1,0 +1,63 @@
+.switch {
+  --pad: 0.05rem;
+  display: inline-grid;
+  grid-template-columns: repeat(var(--count), minmax(0, 1fr));
+  width: 4.2rem;
+  height: 0.62rem;
+  padding: var(--pad);
+}
+
+.thumb {
+  position: absolute;
+  top: var(--pad);
+  bottom: var(--pad);
+  left: var(--pad);
+  z-index: 2;
+  width: calc((100% - var(--pad) * 2) / var(--count));
+  clip-path: var(--cut-sm);
+  background: var(--model-accent, var(--color-panther-orange));
+  transform: translateX(calc(var(--index) * 100%));
+}
+
+.option {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.08rem;
+  font-size: 0.15rem;
+  color: rgba(255, 255, 255, 0.7);
+  white-space: nowrap;
+  transition: color 0.3s ease;
+}
+
+.option strong {
+  font-size: 0.18rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.option:hover {
+  color: var(--color-white);
+}
+
+.active,
+.active:hover {
+  color: #0d0d10;
+}
+
+@media (max-width: 767px) {
+  .switch {
+    width: 5.6rem;
+    height: 0.88rem;
+  }
+
+  .option {
+    font-size: 0.22rem;
+  }
+
+  .option strong {
+    font-size: 0.26rem;
+  }
+}

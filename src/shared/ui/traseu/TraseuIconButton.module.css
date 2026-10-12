@@ -1,0 +1,44 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+}
+
+.md {
+  width: 0.52rem;
+  height: 0.52rem;
+  min-width: 36px;
+  min-height: 36px;
+}
+
+.lg {
+  width: 0.96rem;
+  height: 0.96rem;
+  min-width: 56px;
+  min-height: 56px;
+}
+
+.button svg {
+  position: relative;
+  z-index: 2;
+  width: 45%;
+  height: 45%;
+}
+
+.button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+@media (max-width: 767px) {
+  .md {
+    width: 0.72rem;
+    height: 0.72rem;
+  }
+
+  .lg {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+}

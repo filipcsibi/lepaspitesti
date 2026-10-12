@@ -1,0 +1,235 @@
+{
+  "ui": {
+    "colors": "Alege culoarea",
+    "hotspots": "Detalii de design",
+    "closeDetail": "Închide detaliile",
+    "over": "peste",
+    "playFilm": "Redă filmul",
+    "pauseFilm": "Pune pauză",
+    "loading": "Se încarcă…",
+    "gallery": "Galerie foto",
+    "variants": "Versiune",
+    "variantHints": {
+      "phev": "plug-in hybrid",
+      "bev": "100% electric"
+    }
+  },
+  "lepasL8": {
+    "meta": {
+      "title": "LEPAS L8",
+      "description": "LEPAS L8 – SUV-ul Super Hybrid cu design „Leopard Aesthetics”, autonomie combinată de peste 1.200 km și un interior conceput ca un al treilea spațiu elegant."
+    },
+    "name": "LEPAS L8",
+    "intro": "Vehiculul conceput să\nînalțe calitatea vieții",
+    "labels": {
+      "appearance": "Design exterior",
+      "luxuriousSpace": "Spațiu luxos",
+      "power": "Motorizare",
+      "elegantDriving": "Condus elegant"
+    },
+    "specs": {
+      "length": "Lungime",
+      "width": "Lățime",
+      "height": "Înălțime",
+      "wheelbase": "Ampatament",
+      "eRange": "Autonomie electrică",
+      "combinedRange": "Autonomie combinată",
+      "combinedFuel": "Consum combinat",
+      "thermalEfficiency": "Eficiența termică a motorului",
+      "mechanicalEfficiency": "Eficiență mecanică",
+      "electricRange": "Autonomie complet electrică"
+    },
+    "hotspots": {
+      "frontFascia": "Front inspirat de leopard",
+      "headlights": "Faruri „ochi de leopard”",
+      "cockpit": "Cockpit inteligent avansat",
+      "doorHandle": "Mânere semi-încastrate",
+      "bionicDesign": "Design bionic dinamic inspirat de leopard",
+      "taillights": "Stopuri LED pe toată lățimea"
+    },
+    "interior": {
+      "flexibleSpace": "Spațiu interior flexibil",
+      "windshield": "Parbriz cu izolare termică",
+      "airQuality": "Sistem de monitorizare a calității aerului\nSistem activ de parfumare",
+      "seats": "Scaune multifuncționale"
+    },
+    "cockpit": {
+      "title": "Interiorul cockpitului"
+    },
+    "thirdSpace": {
+      "title": "Bucură-te de al treilea spațiu elegant",
+      "natureDesign": "Design interior inspirat de natură",
+      "speakers": "Difuzoare cu textură de piatră de râu",
+      "velvet": "Texturi catifelate care creează căldură și liniște",
+      "hmi": "Interacțiune om-mașină avansată",
+      "phoneDock": "Suport central pentru telefon"
+    },
+    "power": {
+      "stage1": "Refuză risipa, plătește\ndoar pentru calitate",
+      "stage2": "Noul Super Hybrid",
+      "stage3": "Sistemul LEPAS\nSuper Hybrid",
+      "electricExperience": "Experiență de condus electric",
+      "lowConsumption": "Consum ultra-redus de combustibil",
+      "longRange": "Autonomie ultra-lungă"
+    },
+    "driving": {
+      "iovTitle": "Vehicul conectat",
+      "iovText": "Control de la distanță prin conectivitate: pornire cu o singură atingere,\nlocalizarea vehiculului și programarea climatizării.",
+      "surroundTitle": "Sistem de vizualizare 360°\nși șasiu transparent"
+    },
+    "gallery": {
+      "title": "Estetica Leopard"
+    }
+  },
+  "lepasL6Phev": {
+    "meta": {
+      "title": "LEPAS L6 PHEV – SUV plug-in hybrid",
+      "description": "LEPAS L6 PHEV la LEPAS Pitești: SUV plug-in hybrid de 279 CP, cu până la 92 km electric și 1.058 km autonomie combinată (WLTP)."
+    },
+    "name": "LEPAS L6 PHEV",
+    "eyebrow": "Plug-in hybrid",
+    "subtitle": "Electric în oraș, fără griji la drum lung. 279 CP, până la 92 km doar pe baterie și 1.058 km autonomie combinată (WLTP).",
+    "actions": {
+      "offer": "Cere oferta",
+      "otherVariant": "Vezi L6 BEV"
+    },
+    "labels": {
+      "power": "Motorizare",
+      "exterior": "Exterior",
+      "interior": "Interior",
+      "experience": "Experiență"
+    },
+    "exterior": {
+      "title": "Definește-ți estetica"
+    },
+    "colors": {
+      "solarOrange": "Solar Orange",
+      "bambooGreen": "Bamboo Green",
+      "obsidianBlack": "Obsidian Black",
+      "champagneGold": "Champagne Gold",
+      "metallicSilver": "Metallic Silver",
+      "pearlWhite": "Pearl White"
+    },
+    "interior": {
+      "dashboard": "Cockpit digital, orientat spre șofer",
+      "front": "Spațiu aerisit în față",
+      "rear": "Loc pentru toți, în spate"
+    },
+    "comfort": {
+      "title": "Confort Elegant",
+      "text": "Filosofia Drive Your Elegance continuă în cabină: materiale plăcute la atingere, comenzi la îndemână și o atmosferă calmă, care scurtează orice drum.",
+      "connectedTitle": "Mereu conectat",
+      "connectedText": "Ecran central generos și instrumentar digital: navigația, telefonul și muzica sunt la un gest distanță, fără să-ți ia ochii de la drum.",
+      "spaceTitle": "Spațiu pentru toți",
+      "spaceText": "Cinci locuri cu adevărat utilizabile, cu spațiu amplu la cap și la genunchi și depozitare gândită pentru lucrurile de zi cu zi.",
+      "lastingTitle": "Confort care durează",
+      "lastingText": "Scaune cu susținere corectă, izolare fonică atentă și o suspensie calibrată pentru confort – de la naveta zilnică la drumurile de vacanță."
+    },
+    "gallery": {
+      "title": "LEPAS L6 în detaliu"
+    },
+    "power": {
+      "title": "Două surse de energie, un singur drum fără pauze",
+      "text": "Motorul 1.5 turbo pe benzină lucrează împreună cu un sistem electric alimentat de o baterie de 18,4 kWh. În oraș mergi electric, iar la drum lung nu trebuie să-ți planifici opririle.",
+      "highlight1": "Până la 92 km doar electric (WLTP) – naveta zilnică, fără benzină",
+      "highlight2": "Până la 1.058 km cu un plin și o încărcare (WLTP)",
+      "highlight3": "Bateria se încarcă de la priză, cât timp mașina stă parcată",
+      "footnote": "Valori WLTP, omologare de tip UE, versiunile Essence și Elegance. Consum cu bateria descărcată: 5,9 l/100 km; consum de energie electrică: 14,8 kWh/100 km. Valorile reale variază în funcție de condiții, stilul de condus și nivelul de încărcare al bateriei."
+    },
+    "specs": {
+      "power": "Putere totală",
+      "electricRange": "Autonomie electrică (WLTP)",
+      "combinedRange": "Autonomie combinată (WLTP)",
+      "battery": "Baterie",
+      "consumption": "Consum ponderat combinat",
+      "co2": "Emisii CO₂ ponderate",
+      "length": "Lungime",
+      "width": "Lățime",
+      "height": "Înălțime",
+      "wheelbase": "Ampatament"
+    },
+    "cta": {
+      "title": "Începe experiența LEPAS L6 PHEV",
+      "text": "Cere oferta și un consultant LEPAS Pitești te sună cu toate detaliile: versiuni, preț, finanțare și livrare."
+    }
+  },
+  "lepasL6Bev": {
+    "meta": {
+      "title": "LEPAS L6 BEV – SUV 100% electric",
+      "description": "LEPAS L6 BEV la LEPAS Pitești: SUV 100% electric, cu până la 449 km autonomie (WLTP) și încărcare rapidă 30–80% în aproximativ 22 de minute."
+    },
+    "name": "LEPAS L6 BEV",
+    "eyebrow": "100% electric",
+    "subtitle": "SUV-ul electric al gamei LEPAS: până la 449 km cu o încărcare (WLTP) și de la 30 la 80% în aproximativ 22 de minute.",
+    "actions": {
+      "offer": "Anunță-mă când sosește",
+      "otherVariant": "Vezi L6 PHEV"
+    },
+    "labels": {
+      "power": "Motorizare",
+      "exterior": "Exterior",
+      "interior": "Interior",
+      "experience": "Experiență"
+    },
+    "exterior": {
+      "title": "Definește-ți estetica"
+    },
+    "colors": {
+      "solarOrange": "Solar Orange",
+      "bambooGreen": "Bamboo Green",
+      "obsidianBlack": "Obsidian Black",
+      "champagneGold": "Champagne Gold",
+      "metallicSilver": "Metallic Silver",
+      "pearlWhite": "Pearl White"
+    },
+    "interior": {
+      "dashboard": "Cockpit digital, orientat spre șofer",
+      "front": "Spațiu aerisit în față",
+      "rear": "Loc pentru toți, în spate"
+    },
+    "comfort": {
+      "title": "Confort Elegant",
+      "text": "Filosofia Drive Your Elegance continuă în cabină: materiale plăcute la atingere, comenzi la îndemână și o atmosferă calmă, care scurtează orice drum.",
+      "connectedTitle": "Mereu conectat",
+      "connectedText": "Ecran central generos și instrumentar digital: navigația, telefonul și muzica sunt la un gest distanță, fără să-ți ia ochii de la drum.",
+      "spaceTitle": "Spațiu pentru toți",
+      "spaceText": "Cinci locuri cu adevărat utilizabile, cu spațiu amplu la cap și la genunchi și depozitare gândită pentru lucrurile de zi cu zi.",
+      "lastingTitle": "Confort care durează",
+      "lastingText": "Scaune cu susținere corectă, izolare fonică atentă și o suspensie calibrată pentru confort – de la naveta zilnică la drumurile de vacanță."
+    },
+    "gallery": {
+      "title": "LEPAS L6 în detaliu"
+    },
+    "power": {
+      "title": "Liniște, cuplu instant și 449 km de libertate",
+      "text": "Un motor electric de 160 kW (217 CP) pe puntea față și o baterie LFP de 65 kWh. Fără trepte de viteză și fără emisii la drum – doar accelerație lină și liniște.",
+      "highlight1": "Încărcare rapidă DC de până la 120 kW: 30–80% în aproximativ 22 de minute",
+      "highlight2": "Baterie LFP (litiu-fier-fosfat) de 65 kWh",
+      "highlight3": "Funcție V2L de 3,3 kW: alimentezi aparate electrice direct din mașină",
+      "footnote": "Date anunțate de producător pentru piețele europene. Valorile omologate, echiparea și prețul pentru România vor fi comunicate de importator; până atunci pot exista diferențe."
+    },
+    "specs": {
+      "range": "Autonomie (WLTP)",
+      "power": "Putere",
+      "battery": "Baterie LFP",
+      "fastCharge": "Încărcare rapidă 30–80%",
+      "acceleration": "0–100 km/h",
+      "torque": "Cuplu"
+    },
+    "cta": {
+      "title": "Fii primul care află când sosește L6 BEV",
+      "text": "Lasă-ne datele tale și te anunțăm de îndată ce avem prețul și data de livrare pentru România."
+    }
+  },
+  "lepasL4": {
+    "meta": {
+      "title": "LEPAS L4",
+      "description": "LEPAS L4 – SUV-ul compact rafinat, creat pentru șoferii tineri care își doresc eleganță și tehnologie."
+    },
+    "name": "LEPAS L4",
+    "labels": {
+      "appearance": "Design exterior",
+      "interior": "Interior"
+    }
+  }
+}

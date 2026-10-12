@@ -1,0 +1,241 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  height: 100svh;
+  overflow: hidden;
+  background: #000;
+}
+
+/* Opening reveal: the carousel opens from the centre (original: width 0 → 100%). */
+.swiper {
+  width: 100%;
+  height: 100%;
+  animation: reveal 1s var(--ease-out-power2) both;
+}
+
+@keyframes reveal {
+  from {
+    clip-path: inset(0 50%);
+  }
+  to {
+    clip-path: inset(0 0);
+  }
+}
+
+.slide {
+  position: relative;
+  overflow: hidden;
+}
+
+.inner {
+  position: absolute;
+  inset: 0;
+}
+
+.media {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Phones: blurred artwork behind a 16:9 video band. */
+.backdrop {
+  filter: blur(14px) brightness(0.55) saturate(1.2);
+  transform: scale(1.12);
+}
+
+.band {
+  top: 50%;
+  bottom: auto;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  translate: 0 -50%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.55);
+}
+
+/* Play button in the middle of the video band. */
+.play {
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  translate: -50% -50%;
+}
+
+.link {
+  position: absolute;
+  inset: 0;
+}
+
+/* "LEPAS Pitești" signature, bottom-left over a soft shade. */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 45% 0 0;
+  z-index: 3;
+  pointer-events: none;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.22) 55%, transparent);
+}
+
+.signature {
+  position: absolute;
+  left: var(--page-gutter);
+  bottom: 1.1rem;
+  z-index: 4;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  align-items: center;
+  column-gap: 0.34rem;
+  color: var(--color-white);
+  pointer-events: none;
+}
+
+.signatureLogo {
+  width: 3.3rem;
+  height: auto;
+  animation: signature-in 1.1s var(--ease-out-expo) 0.9s both;
+}
+
+.signatureLine {
+  width: 1px;
+  height: 0.7rem;
+  background: linear-gradient(to bottom, transparent, var(--color-accent), transparent);
+  transform-origin: center;
+  animation: signature-line 0.9s var(--ease-out-expo) 1.3s both;
+}
+
+.signatureCity {
+  display: flex;
+  font-size: 0.6rem;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.signatureCity span {
+  display: inline-block;
+  animation: signature-letter 0.9s var(--ease-out-expo) both;
+  animation-delay: calc(1.45s + var(--i) * 0.06s);
+}
+
+.signatureTagline {
+  grid-column: 1 / -1;
+  margin-top: 0.22rem;
+  font-size: var(--font-size-2);
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.72);
+  animation: signature-in 1.1s var(--ease-out-expo) 2.2s both;
+}
+
+.signatureMarker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-left: 0.2rem;
+  color: var(--color-white);
+  white-space: nowrap;
+}
+
+/* A stretch of route leading to the marker. */
+.signatureMarker::before {
+  content: "";
+  width: 0.9rem;
+  height: 2px;
+  background: repeating-linear-gradient(to right, var(--color-accent-bright) 0 0.14rem, transparent 0 0.22rem);
+}
+
+@keyframes signature-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.2rem);
+  }
+}
+
+@keyframes signature-line {
+  from {
+    opacity: 0;
+    transform: scaleY(0);
+  }
+}
+
+@keyframes signature-letter {
+  from {
+    opacity: 0;
+    transform: translateY(0.3rem);
+    filter: blur(6px);
+  }
+}
+
+.dots {
+  position: absolute !important;
+  left: 50%;
+  bottom: 0.4rem;
+  z-index: 5;
+  translate: -50% 0;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    height: var(--mobile-media-height);
+  }
+
+  .dots {
+    bottom: 0.6rem;
+  }
+
+  /* While the video band is on screen, the dots sit right under it (the band is 16:9, centred). */
+  .hero[data-band] .dots {
+    top: calc(50% + 28.125vw + 0.3rem);
+    bottom: auto;
+  }
+
+  /* Phones: centred, in the free space above the video band. */
+  .hero::after {
+    inset: 0 0 60%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
+  }
+
+  .signature {
+    inset: 1.7rem 0 auto;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 0.2rem;
+  }
+
+  .signatureLogo {
+    width: 3.4rem;
+  }
+
+  .signatureLine {
+    width: 0.8rem;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--color-accent), transparent);
+  }
+
+  .signatureCity {
+    padding-left: 0.3em;
+    font-size: 0.52rem;
+  }
+
+  .signatureTagline {
+    margin-top: 0.06rem;
+    font-size: 0.2rem;
+    text-align: center;
+  }
+
+  .signatureMarker {
+    display: flex;
+    justify-content: center;
+    margin: 0.2rem 0 0;
+  }
+
+  .signatureMarker::before {
+    width: 0.6rem;
+  }
+}

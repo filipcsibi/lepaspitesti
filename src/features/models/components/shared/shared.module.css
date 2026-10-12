@@ -1,0 +1,125 @@
+/* Section label ("moduleT" in the original). */
+.label {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.14rem;
+  font-size: var(--font-size-5);
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--color-white);
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.35);
+}
+
+.label::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0.4rem;
+  height: 0.02rem;
+  background: var(--model-accent, var(--color-panther-orange));
+}
+
+/* Spec numbers ("numList"). */
+.specs {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.spec {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  font-size: var(--font-size-2);
+  line-height: 1.1;
+  color: var(--color-white);
+}
+
+.spec dd {
+  margin: 0.08rem 0 0;
+}
+
+.specValue {
+  white-space: nowrap;
+  font-size: var(--font-size-10);
+  line-height: 1.4;
+  font-variant-numeric: tabular-nums;
+}
+
+.specValue small {
+  font-size: 0.6em;
+}
+
+.accent .specValue {
+  color: var(--color-accent);
+}
+
+.light .specValue {
+  color: var(--color-gray-dcdcde);
+}
+
+/* Colour picker */
+.picker {
+  display: inline-flex;
+  gap: 0.14rem;
+  padding: 0.08rem 0.14rem;
+}
+
+.swatch {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.44rem;
+  height: 0.44rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.02rem transparent;
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s var(--ease-bounce);
+}
+
+.swatch img,
+.swatchColor {
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 50%;
+}
+
+.swatchColor {
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+}
+
+.swatch:hover {
+  transform: scale(1.1);
+}
+
+.swatchActive {
+  box-shadow: 0 0 0 0.02rem var(--ring);
+  transform: scale(1.12);
+}
+
+@media (max-width: 767px) {
+  .specs {
+    flex-wrap: wrap;
+  }
+
+  .spec {
+    width: 45%;
+    margin: 0.2rem 0;
+    align-items: center;
+  }
+
+  .swatch {
+    width: 0.66rem;
+    height: 0.66rem;
+  }
+
+  .swatch img,
+  .swatchColor {
+    width: 0.44rem;
+    height: 0.44rem;
+  }
+}

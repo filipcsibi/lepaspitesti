@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Contact – showroom LEPAS Pitești",
+    "description": "Adresa, telefonul și e-mailul showroomului LEPAS Pitești. Sună-ne sau programează un test drive."
+  },
+  "eyebrow": "Contact",
+  "text": "Vino la showroom să vezi modelele LEPAS, sună-ne sau scrie-ne – îți răspundem la orice întrebare despre versiuni, prețuri, finanțare și livrare.",
+  "call": "Sună-ne",
+  "testDrive": "Programează un test drive",
+  "address": "Adresă",
+  "operator": "Dealer autorizat: {name}",
+  "directions": "Deschide în Google Maps",
+  "phone": "Telefon",
+  "email": "E-mail",
+  "hours": "Program",
+  "mapTitle": "Harta showroomului LEPAS Pitești",
+  "loadMap": "Arată harta",
+  "mapNote": "Harta este furnizată de Google. La încărcare, Google poate stoca cookie-uri și primește adresa ta IP.",
+  "form": {
+    "title": "Scrie-ne",
+    "subtitle": "Lasă-ne datele tale și un consultant LEPAS Pitești te sună înapoi.",
+    "name": "Nume și prenume",
+    "namePlaceholder": "ex. Andrei Popescu",
+    "phone": "Telefon",
+    "phonePlaceholder": "07xx xxx xxx",
+    "email": "E-mail",
+    "emailPlaceholder": "nume@exemplu.ro",
+    "optional": "opțional",
+    "model": "Model de interes",
+    "message": "Mesaj",
+    "messagePlaceholder": "Cu ce te putem ajuta?",
+    "consent": "Sunt de acord să fiu contactat(ă) de LEPAS Pitești în legătură cu cererea mea. Am citit <privacy>Politica de confidențialitate</privacy>.",
+    "submit": "Trimite mesajul",
+    "submitting": "Se trimite…",
+    "successTitle": "Mulțumim! Mesajul tău a ajuns la noi.",
+    "successText": "Un consultant LEPAS Pitești te va suna în cel mai scurt timp.",
+    "errors": {
+      "name": "Te rugăm să ne spui cum te numești.",
+      "phone": "Introdu un număr de telefon valid (ex. 0722 123 456).",
+      "email": "Introdu o adresă de e-mail validă.",
+      "consent": "Avem nevoie de acordul tău ca să te putem contacta.",
+      "generic": "Nu am putut trimite mesajul. Te rugăm să încerci din nou sau să ne suni."
+    }
+  }
+}

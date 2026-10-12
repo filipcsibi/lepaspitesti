@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "title": "LEPAS Pitești – Drive Your Elegance",
+    "description": "Descoperă gama LEPAS la Pitești: LEPAS L8, LEPAS L6 PHEV și BEV, LEPAS L4. Vezi pe hartă cât de departe ajungi din Pitești cu o încărcare."
+  },
+  "hero": {
+    "label": "Prezentare LEPAS",
+    "city": "Pitești",
+    "tagline": "Drive Your Elegance"
+  },
+  "models": {
+    "lepasL8": "LEPAS L8",
+    "lepasL6": "LEPAS L6",
+    "lepasL4": "LEPAS L4"
+  },
+  "about": {
+    "eyebrow": "DESPRE",
+    "title": "LEPAS",
+    "text": "Pentru a înfrumuseța lumea cu strălucire,\ntrebuie mai întâi să stăpânești viața cu eleganță"
+  }
+}

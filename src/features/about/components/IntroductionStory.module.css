@@ -1,0 +1,268 @@
+.story {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background: #000;
+}
+
+.pages {
+  position: absolute;
+  inset: 0 0 auto;
+}
+
+.page {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.cover {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Banner */
+.bannerTitle {
+  position: absolute;
+  top: 4.07rem;
+  left: 50%;
+  z-index: 2;
+  width: 4.6rem;
+  translate: 3.3rem 0;
+  font-size: 0.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-white);
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+.hint {
+  position: absolute;
+  bottom: 0.3rem;
+  left: 50%;
+  z-index: 2;
+  translate: -50% 0;
+  padding-top: 0.24rem;
+  font-size: var(--font-size-1);
+  color: var(--color-white);
+}
+
+.hint::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0.14rem;
+  height: 0.14rem;
+  border-right: 2px solid var(--color-accent);
+  border-bottom: 2px solid var(--color-accent);
+  translate: -50% 0;
+  rotate: 45deg;
+  animation: nudge 1.6s ease-in-out infinite;
+}
+
+@keyframes nudge {
+  50% {
+    translate: -50% 0.08rem;
+  }
+}
+
+/* Chapters */
+.chapter {
+  background:
+    radial-gradient(90% 90% at 20% 50%, var(--glow), transparent 70%),
+    radial-gradient(60% 80% at 90% 80%, color-mix(in srgb, var(--glow) 60%, transparent), transparent 70%), #030507;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.right .chapter,
+.right.chapter {
+  background:
+    radial-gradient(90% 90% at 80% 50%, var(--glow), transparent 70%),
+    radial-gradient(60% 80% at 10% 20%, color-mix(in srgb, var(--glow) 60%, transparent), transparent 70%), #030507;
+}
+
+.copy {
+  position: relative;
+  z-index: 4;
+  width: 8.43rem;
+  padding-left: 1.63rem;
+}
+
+.right .copy {
+  padding: 0 1.63rem 0 0;
+  text-align: right;
+}
+
+.title {
+  font-size: 0.4rem;
+  font-weight: 500;
+  line-height: 0.55rem;
+  color: var(--accent);
+  white-space: pre-line;
+}
+
+.text {
+  margin-top: 0.6rem;
+  font-size: 0.18rem;
+  line-height: 0.3rem;
+  color: var(--color-gray-dcdcde);
+  white-space: pre-line;
+}
+
+/* Finale */
+.finale {
+  justify-content: center;
+}
+
+.finaleCopy {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.6rem;
+}
+
+.finaleLine {
+  width: 1px;
+  height: 0.85rem;
+  margin-bottom: 0.4rem;
+  background: #e3e3e3;
+}
+
+.finaleTitle {
+  font-size: 0.5rem;
+  line-height: 1.1;
+  color: var(--color-accent);
+}
+
+/* Masks */
+.masks {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.mask {
+  position: absolute;
+  overflow: hidden;
+  -webkit-mask: var(--mask) 0 0 / 100% 100% no-repeat;
+  mask: var(--mask) 0 0 / 100% 100% no-repeat;
+  background: #000;
+}
+
+.maskLogo {
+  left: 50%;
+}
+
+.maskStroke1 {
+  width: 14.26rem;
+  height: 13.19rem;
+}
+
+.maskStroke2 {
+  width: 10.54rem;
+  height: 9.57rem;
+}
+
+.maskBig {
+  background: var(--color-white);
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.videoLogo {
+  position: absolute;
+  inset: 0;
+}
+
+.videoCity {
+  position: absolute;
+  top: 6rem;
+  left: -3.84rem;
+  width: 18.08rem;
+  height: 9.74rem;
+  object-fit: cover;
+}
+
+.videoBalance {
+  position: relative;
+  top: 2rem;
+  width: 14.26rem;
+  height: 12.19rem;
+  object-fit: cover;
+}
+
+.videoSymbol {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 15.22rem;
+  height: 7.86rem;
+  object-fit: cover;
+}
+
+/* Class hooks used by the timeline */
+.copy_city,
+.copy_balance,
+.copy_art,
+.copy_symbol,
+.finaleItem {
+  will-change: transform, opacity;
+}
+
+@media (max-width: 767px) {
+  .bannerTitle {
+    translate: -30vw 0;
+    width: 60vw;
+    font-size: 0.44rem;
+  }
+
+  .copy {
+    width: calc(100vw - 1rem);
+    padding-left: 0.4rem;
+  }
+
+  .right .copy {
+    padding: 3rem 0.5rem 0 0;
+  }
+
+  .chapter:nth-child(4) .copy {
+    padding-top: 4rem;
+  }
+
+  .title {
+    font-size: 0.36rem;
+    line-height: 0.5rem;
+  }
+
+  .text {
+    margin-top: 0.3rem;
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+  }
+
+  .maskStroke1 {
+    transform-origin: top left;
+    scale: 0.59;
+  }
+
+  .maskStroke2 {
+    transform-origin: top right;
+    scale: 0.75;
+  }
+}

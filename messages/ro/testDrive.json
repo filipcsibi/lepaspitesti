@@ -1,0 +1,267 @@
+{
+  "header": {
+    "call": "Sună-ne"
+  },
+  "form": {
+    "name": "Nume și prenume",
+    "namePlaceholder": "ex. Andrei Popescu",
+    "phone": "Telefon",
+    "phonePlaceholder": "07xx xxx xxx",
+    "email": "E-mail",
+    "optional": "opțional",
+    "emailPlaceholder": "nume@exemplu.ro",
+    "model": "Model",
+    "comingSoon": "în curând",
+    "timeframe": "Când ai vrea să vii?",
+    "timeframes": {
+      "asap": "Cât mai curând",
+      "week": "Săptămâna aceasta",
+      "month": "Luna aceasta",
+      "research": "Doar mă informez"
+    },
+    "tradeIn": "Am o mașină pe care aș vrea s-o dau la schimb",
+    "consent": "Sunt de acord să fiu contactat(ă) de LEPAS Pitești în legătură cu cererea mea. Am citit <privacy>Declarația de confidențialitate</privacy>.",
+    "submitting": "Se trimite…",
+    "reassurance": "Nu trimitem spam. Folosim datele doar pentru această cerere.",
+    "errors": {
+      "name": "Te rugăm să ne spui cum te numești.",
+      "phone": "Introdu un număr de telefon valid (ex. 0722 123 456).",
+      "email": "Introdu o adresă de e-mail validă.",
+      "consent": "Avem nevoie de acordul tău ca să te putem contacta.",
+      "generic": "Nu am putut trimite cererea. Te rugăm să încerci din nou sau să ne suni."
+    },
+    "preorder": "precomandă"
+  },
+  "price": {
+    "from": "de la",
+    "vat": "cu TVA",
+    "launch": "Preț de lansare",
+    "list": "Preț de listă",
+    "save": "Economisești {amount}"
+  },
+  "showroom": {
+    "title": "Te așteptăm la LEPAS Pitești",
+    "text": "Showroomul LEPAS din Pitești: vino să vezi modelele și să vorbești cu un consultant.",
+    "directions": "Vezi pe hartă",
+    "hours": "Program"
+  },
+  "faq": {
+    "title": "Întrebări frecvente"
+  },
+  "footnote": "Valori comunicate de producător; pot varia în funcție de versiune, echipare și condițiile de utilizare. Prețurile includ TVA și pot fi modificate fără notificare prealabilă.",
+  "thanks": {
+    "metaTitle": "Mulțumim – cererea ta a fost trimisă",
+    "title": "Mulțumim! Cererea ta a ajuns la noi.",
+    "text": "Un consultant LEPAS Pitești te va suna ca să stabiliți împreună următorii pași.",
+    "nextTitle": "Ce urmează",
+    "next": [
+      "Te sunăm la numărul lăsat în formular.",
+      "Îți răspundem la toate întrebările.",
+      "Stabilim împreună când vii la showroom."
+    ],
+    "discover": "Descoperă LEPAS L8",
+    "home": "Înapoi la site"
+  },
+  "models": {
+    "lepasL8": {
+      "meta": {
+        "title": "Test drive LEPAS L8 în Pitești – programează-te online",
+        "description": "Condu noul LEPAS L8: SUV plug-in hybrid de 278 CP, cu până la 1.040 km autonomie combinată. Test drive gratuit la showroomul LEPAS Pitești. De la 42.500 € cu TVA."
+      },
+      "eyebrow": "Lansare oficială în România · Showroom Pitești",
+      "title": "Programează un test drive cu noul LEPAS L8",
+      "subtitle": "SUV plug-in hybrid de 278 CP, cu până la 1.040 km autonomie combinată. Vino să-l conduci la Pitești.",
+      "cta": "Programează test drive",
+      "form": {
+        "title": "Rezervă-ți test drive-ul",
+        "subtitle": "Durează 30 de secunde. Gratuit și fără obligații.",
+        "submit": "Programează test drive"
+      },
+      "trust": ["Gratuit și fără nicio obligație", "Te sunăm noi pentru programare", "Alegi tu ziua și ora"],
+      "stats": [
+        {
+          "value": "278 CP",
+          "label": "putere totală"
+        },
+        {
+          "value": "1.040 km",
+          "label": "autonomie combinată"
+        },
+        {
+          "value": "2,0 l/100 km",
+          "label": "consum mixt"
+        },
+        {
+          "value": "18,4 kWh",
+          "label": "baterie"
+        }
+      ],
+      "reasonsTitle": "De ce să conduci LEPAS L8",
+      "reasons": [
+        {
+          "title": "Design inspirat de leopard",
+          "text": "Linii fluide, faruri „ochi de leopard” și stopuri LED pe toată lățimea. O prezență care se remarcă."
+        },
+        {
+          "title": "Un interior ca un al treilea spațiu",
+          "text": "Cockpit digital, materiale catifelate și loc generos pentru toată familia."
+        },
+        {
+          "title": "Super Hybrid plug-in",
+          "text": "Electric în oraș, fără griji la drum lung: până la 1.040 km cu un plin și o încărcare."
+        },
+        {
+          "title": "Tehnologie care te ajută",
+          "text": "Vizualizare 360° cu șasiu transparent și control de la distanță din telefon."
+        }
+      ],
+      "galleryTitle": "LEPAS L8 în imagini",
+      "offerTitle": "Ofertă de lansare",
+      "offerText": "Disponibil în versiunile Essence și Elegance.",
+      "details": "Vezi toate detaliile despre L8",
+      "steps": {
+        "title": "Cum funcționează",
+        "items": [
+          {
+            "title": "Completezi formularul",
+            "text": "Nume, telefon și e-mail – atât."
+          },
+          {
+            "title": "Te sunăm să stabilim ora",
+            "text": "Un consultant LEPAS Pitești te contactează pentru programare."
+          },
+          {
+            "title": "Vii și conduci",
+            "text": "Adu permisul de conducere. Restul pregătim noi."
+          }
+        ]
+      },
+      "faq": [
+        {
+          "q": "Cât costă test drive-ul?",
+          "a": "Nimic. Test drive-ul este gratuit și nu te obligă la nimic."
+        },
+        {
+          "q": "Cât durează?",
+          "a": "În jur de 30–45 de minute, cu tot cu prezentarea mașinii."
+        },
+        {
+          "q": "Ce trebuie să am la mine?",
+          "a": "Permisul de conducere valabil și un act de identitate."
+        },
+        {
+          "q": "Când pot veni?",
+          "a": "Stabilim împreună, la telefon, ziua și ora care ți se potrivesc."
+        },
+        {
+          "q": "Pot afla și despre finanțare sau despre mașina mea actuală?",
+          "a": "Da. Consultantul îți prezintă opțiunile de finanțare și îți poate evalua mașina dacă vrei s-o dai la schimb."
+        }
+      ],
+      "finalCta": {
+        "title": "Gata să-l conduci?",
+        "text": "Completează formularul și te sunăm noi."
+      }
+    },
+    "lepasL6": {
+      "meta": {
+        "title": "LEPAS L6 – precomandă la preț de lansare în Pitești",
+        "description": "Noul LEPAS L6: SUV compact plug-in hybrid de 279 CP, până la 92 km electric și 1.058 km autonomie combinată (WLTP). Preț de lansare 35.990 € cu TVA, la LEPAS Pitești."
+      },
+      "eyebrow": "Precomenzi deschise · până la 30 noiembrie 2026",
+      "title": "Noul LEPAS L6, la preț de lansare",
+      "subtitle": "SUV compact plug-in hybrid de 279 CP, cu până la 92 km electric și 1.058 km autonomie combinată. Cere oferta la LEPAS Pitești.",
+      "cta": "Vreau oferta de lansare",
+      "form": {
+        "title": "Cere oferta pentru LEPAS L6",
+        "subtitle": "Durează 30 de secunde. Fără nicio obligație.",
+        "submit": "Vreau oferta de lansare"
+      },
+      "trust": ["Fără nicio obligație", "Te sunăm noi cu toate detaliile", "Preț de lansare până la 30 noiembrie"],
+      "stats": [
+        {
+          "value": "279 CP",
+          "label": "putere totală"
+        },
+        {
+          "value": "92 km",
+          "label": "autonomie electrică (WLTP)"
+        },
+        {
+          "value": "1.058 km",
+          "label": "autonomie combinată (WLTP)"
+        },
+        {
+          "value": "18,4 kWh",
+          "label": "baterie"
+        }
+      ],
+      "reasonsTitle": "De ce LEPAS L6",
+      "reasons": [
+        {
+          "title": "Electric în fiecare zi",
+          "text": "Până la 92 km doar electric (WLTP) – suficient pentru drumurile obișnuite din oraș, fără benzină."
+        },
+        {
+          "title": "Fără griji la drum lung",
+          "text": "Până la 1.058 km autonomie combinată (WLTP), cu un plin și o încărcare."
+        },
+        {
+          "title": "279 CP plug-in hybrid",
+          "text": "Motor 1.5 turbo pe benzină, ajutat de un sistem electric cu baterie de 18,4 kWh."
+        },
+        {
+          "title": "Format compact",
+          "text": "Aproximativ 4,5 m lungime și 2,7 m ampatament: ușor de condus în oraș, cu loc pentru familie."
+        }
+      ],
+      "galleryTitle": "LEPAS L6 în imagini",
+      "offerTitle": "Ofertă de precomandă",
+      "offerText": "Versiunea Elegance. Preț valabil pentru precomenzi între 6 octombrie și 30 noiembrie 2026, cu un avans de 1.000 €.",
+      "details": "",
+      "steps": {
+        "title": "Cum funcționează",
+        "items": [
+          {
+            "title": "Completezi formularul",
+            "text": "Nume, telefon și e-mail – atât."
+          },
+          {
+            "title": "Te sunăm cu oferta",
+            "text": "Un consultant LEPAS Pitești îți prezintă oferta de lansare și pașii precomenzii."
+          },
+          {
+            "title": "Hotărăști tu",
+            "text": "Dacă îți place, îți rezervi mașina la prețul de lansare. Dacă nu, nu te costă nimic."
+          }
+        ]
+      },
+      "faq": [
+        {
+          "q": "Cât costă LEPAS L6?",
+          "a": "Prețul de lansare este 35.990 € cu TVA, față de prețul de listă de 39.990 € cu TVA, pentru versiunea Elegance."
+        },
+        {
+          "q": "Până când este valabil prețul de lansare?",
+          "a": "Pentru precomenzile făcute între 6 octombrie și 30 noiembrie 2026."
+        },
+        {
+          "q": "Ce presupune precomanda?",
+          "a": "Un avans de 1.000 €. Toate detaliile le afli de la consultantul LEPAS Pitești, înainte să te hotărăști."
+        },
+        {
+          "q": "Mă obligă la ceva dacă trimit formularul?",
+          "a": "Nu. Formularul este doar o cerere de ofertă – te sunăm, îți răspundem la întrebări și hotărăști tu."
+        },
+        {
+          "q": "Pot afla și despre finanțare sau despre mașina mea actuală?",
+          "a": "Da. Consultantul îți prezintă opțiunile de finanțare și îți poate evalua mașina dacă vrei s-o dai la schimb."
+        }
+      ],
+      "finalCta": {
+        "title": "Prinde prețul de lansare",
+        "text": "Completează formularul și te sunăm noi cu oferta."
+      }
+    }
+  }
+}

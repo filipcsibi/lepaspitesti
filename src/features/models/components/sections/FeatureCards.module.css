@@ -1,0 +1,91 @@
+.section {
+  padding: 1.3rem var(--page-gutter) 1.2rem;
+  color: var(--color-white);
+  background: #0b0c10;
+}
+
+.header {
+  max-width: 9.4rem;
+}
+
+.title {
+  margin-top: 0.34rem;
+  font-size: 0.56rem;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.text {
+  margin-top: 0.24rem;
+  font-size: var(--font-size-3);
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.3rem;
+  margin-top: 0.7rem;
+}
+
+.picture {
+  position: relative;
+  aspect-ratio: 1248 / 722;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.picture img {
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-out-power2);
+}
+
+.card:hover .picture img {
+  transform: scale(1.05);
+}
+
+.cardTitle {
+  margin-top: 0.26rem;
+  font-size: var(--font-size-8);
+  font-weight: 600;
+}
+
+.cardText {
+  margin-top: 0.1rem;
+  font-size: var(--font-size-2);
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding: 1rem var(--page-gutter) 0.9rem;
+  }
+
+  .title {
+    font-size: 0.56rem;
+  }
+
+  .text {
+    font-size: 0.28rem;
+  }
+
+  .cards {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.6rem;
+    margin-top: 0.5rem;
+  }
+
+  .picture {
+    border-radius: 2px;
+  }
+
+  .cardTitle {
+    font-size: 0.36rem;
+  }
+
+  .cardText {
+    font-size: 0.26rem;
+  }
+}

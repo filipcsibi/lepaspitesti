@@ -1,0 +1,210 @@
+/*
+ * Global design tokens & base styles.
+ *
+ * Sizing: like the original site, `1rem` equals 100px on a 1920px-wide desktop
+ * design and 100px on a 750px-wide mobile design. Component styles are written
+ * in these "design rem" units, so values can be read straight off the mockups
+ * (e.g. 48px in the design => 0.48rem).
+ */
+
+:root {
+  /* Brand palette — "Regional Official Website Construction Guide 2025", p.11 */
+  --color-panther-orange: #eb9201;
+  --color-dynamic-red: #dd3125;
+  --color-freedom-blue: #3c7dd2;
+  --color-aurora-green: #00a985;
+  --color-minimal-gray: #dcdcdc;
+  --color-slate-gray: #969392;
+  --color-jet-black: #000;
+
+  /* LEPAS Pitești: the route colour — links, highlights, calls to action and the Traseu edge. */
+  --color-accent: var(--color-freedom-blue);
+  --color-accent-bright: #6aa3ee;
+
+  /* Cut corners (top right, bottom left) for filled buttons and highlights outside a Traseu surface. */
+  --cut-sm: polygon(0 0, calc(100% - 0.08rem) 0, 100% 0.08rem, 100% 100%, 0.08rem 100%, 0 calc(100% - 0.08rem));
+
+  --color-black: var(--color-jet-black);
+  --color-white: #fff;
+  --color-ash: #292929;
+  --color-charcoal: #4d4c4c;
+  --color-yellow: var(--color-accent);
+  --color-gray-484848: #484848;
+  --color-gray-54585a: #54585a;
+  --color-gray-dcdcde: #dcdcde;
+  --color-footer: #2a2a2a;
+  --color-navy: #172d3f;
+  --gradient-brand: linear-gradient(
+    115deg,
+    var(--color-panther-orange),
+    var(--color-dynamic-red),
+    var(--color-freedom-blue),
+    var(--color-aurora-green)
+  );
+
+  --font-size-1: 0.16rem;
+  --font-size-2: 0.18rem;
+  --font-size-3: 0.2rem;
+  --font-size-4: 0.22rem;
+  --font-size-5: 0.24rem;
+  --font-size-8: 0.3rem;
+  --font-size-10: 0.34rem;
+  --font-size-12: 0.4rem;
+  --font-size-13: 0.5rem;
+  --font-size-14: 0.6rem;
+
+  --page-gutter: 1.62rem;
+  --header-height: 1rem;
+  --header-height-compact: 0.68rem;
+
+  --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+  --ease-out-power2: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --ease-in-out-power2: cubic-bezier(0.645, 0.045, 0.355, 1);
+  --ease-bounce: cubic-bezier(0.47, 1.64, 0.41, 0.8);
+
+  --z-header: 5000;
+  --z-float: 200;
+  --z-modal: 9000;
+}
+
+@media (max-width: 767px) {
+  :root {
+    --font-size-2: 0.26rem;
+    --font-size-3: 0.26rem;
+    --font-size-4: 0.26rem;
+    --font-size-5: 0.3rem;
+    --font-size-10: 0.5rem;
+    --font-size-12: 0.5rem;
+    --font-size-14: 0.52rem;
+    --page-gutter: 0.3rem;
+    /* Full-screen artwork is drawn at 750×1448: size sections to it so phones show the whole image. */
+    --mobile-media-height: min(100svh, calc(100vw * 1448 / 750));
+  }
+}
+
+/* How much of a Traseu edge is traced, animated on hover (see shared/ui/traseu). */
+@property --traseu-p {
+  syntax: "<percentage>";
+  inherits: true;
+  initial-value: 0%;
+}
+
+html {
+  font-size: calc(100vw / 19.2);
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: max(32px, calc(100vw / 7.5));
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: clip;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans), "Source Sans 3", system-ui, sans-serif;
+  font-size: var(--font-size-1);
+  font-weight: 400;
+  color: var(--color-black);
+  background-color: var(--color-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+blockquote {
+  margin: 0;
+  padding: 0;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-yellow);
+  outline-offset: 3px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Lenis smooth scroll */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis:not(.lenis-autoToggle).lenis-stopped {
+  overflow: clip;
+}
+.lenis [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

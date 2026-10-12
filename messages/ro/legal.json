@@ -1,0 +1,9 @@
+{
+  "documents": {
+    "legal": "Termeni și condiții",
+    "privacy": "Politica de confidențialitate",
+    "cookies": "Politica de cookie-uri"
+  },
+  "fallbackNotice": "Acest document este disponibil momentan doar în limba engleză.",
+  "openCookieSettings": "Deschide setările cookie-urilor"
+}

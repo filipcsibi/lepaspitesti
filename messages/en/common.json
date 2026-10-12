@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "siteName": "LEPAS Pitești",
+    "defaultTitle": "LEPAS Pitești – Drive Your Elegance",
+    "defaultDescription": "The official LEPAS website in Pitești. Discover the LEPAS L8, LEPAS L6 PHEV, LEPAS L6 BEV and LEPAS L4 – elegance, technology and refinement."
+  },
+  "actions": {
+    "discoverMore": "Discover more",
+    "backToHome": "Back to home",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next",
+    "play": "Play video",
+    "scrollToTop": "Back to top"
+  },
+  "nav": {
+    "menu": "Menu",
+    "close": "Close",
+    "home": "Home",
+    "back": "Back",
+    "language": "Language",
+    "groups": {
+      "models": "Models",
+      "about": "About LEPAS",
+      "contact": "Contact"
+    },
+    "links": {
+      "lepasL8": "LEPAS L8",
+      "lepasL6Phev": "LEPAS L6 PHEV",
+      "lepasL6Bev": "LEPAS L6 BEV",
+      "lepasL4": "LEPAS L4",
+      "introduction": "Introduction",
+      "brandValues": "Brand Values",
+      "legal": "Legal",
+      "privacy": "Privacy Statement",
+      "cookies": "Cookies Policy",
+      "contact": "Showroom & contact"
+    }
+  },
+  "footer": {
+    "social": "Follow us",
+    "copyright": "© {year} LEPAS Pitești. All rights reserved."
+  },
+  "cookies": {
+    "bannerTitle": "About Cookies On This Site",
+    "bannerText": "We use cookies to analyze site usage and improve our website and services. Click “Cookie Settings” to manage your preferences. For more information, read our",
+    "policyLink": "Cookies Policy",
+    "acceptAll": "Accept All",
+    "rejectAll": "Reject All",
+    "settings": "Cookie Settings",
+    "save": "Save preferences",
+    "centerTitle": "Privacy Preference Center",
+    "centerText": "We place cookies to make sure our website works properly and to improve your browsing experience. Cookies help us analyse traffic and understand how you found us. You can read more in our",
+    "manage": "Manage Consent Preferences",
+    "necessary": {
+      "title": "Strictly Necessary Cookies",
+      "text": "These are essential for the website to work (for example, remembering your cookie choices) and cannot be switched off.",
+      "alwaysOn": "Always active"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "text": "We use Google Analytics to place and read cookies for the above purposes. We have configured Google Analytics to protect your privacy: the last octet of your IP address is anonymised and data sharing with Google is turned off."
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "text": "These help us measure how our ads perform (Meta, Google) and show you relevant offers. Without them you will still see ads, but less relevant ones."
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "text": "Page not found"
+  }
+}

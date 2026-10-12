@@ -1,0 +1,62 @@
+{
+  "introduction": {
+    "meta": {
+      "title": "Prezentarea brandului",
+      "description": "LEPAS – creat pentru maeștrii echilibrului. Descoperă povestea și filozofia din spatele brandului: eleganța este putere."
+    },
+    "title": "Prezentarea brandului",
+    "scrollHint": "Explorează",
+    "chapters": {
+      "city": {
+        "title": "Orașul este mai mult decât oțel și viteză,\neste o scenă pentru vise, frumusețe\nși exprimare îndrăzneață.",
+        "text": "În această junglă urbană modelată de ambiție și accelerare se ridică o nouă generație de exploratori. Sunt independenți și curajoși, dar nu le lipsește flexibilitatea. Urmăresc eficiența, dar și frumusețea. Înlocuiesc extravaganța cu rafinamentul și redefinesc puterea prin eleganță."
+      },
+      "balance": {
+        "title": "LEPAS s-a născut pentru acești\nmaeștri ai echilibrului – pentru cei care\nconduc viața cu gust, intenție\nși forță elegantă.",
+        "text": "Ca brand orientat spre viitor în strategia globală Chery, LEPAS aduce o imagine complet nouă asupra viitorului mobilității. Inspirat de „Leopard Beauty Aesthetics”, transformă cele mai agile linii ale naturii într-un design dinamic și expresiv. Fiecare curbă ascunde o energie latentă, iar fiecare detaliu este elegant și puternic.\n\nRefuzăm să îngrămădim luxul și performanța și nu ne plecăm în fața răcelii mecanice. Prin îmbinarea tehnologiei inteligente cu o platformă globală dezvoltată intern, LEPAS face față cu ușurință oricărui scenariu de călătorie, creând o nouă filozofie – „eleganța este putere”: nu atrage atenția prin zgomot, ci stăpânește scena principală a vieții printr-un nucleu rafinat."
+      },
+      "art": {
+        "title": "Pentru LEPAS, condusul nu înseamnă dominare,\nci o formă de artă prin care îți exprimi personalitatea\nși gustul pentru viață.",
+        "text": "LEPAS nu este un vehicul „pentru grabă”, ci un spațiu de viață mobil – un „spațiu rafinat” care echilibrează ritmul muncii cu liniștea interioară. Știe să lase loc de respiro și înțelege eficiența. Păstrează atenție pentru „ea” și plăcerea condusului pentru „el”.\n\nDe la centrul de design din Europa până la frontiera cercetării din Shanghai, LEPAS, cu viziunea sa estetică globală și capabilitățile platformei inteligente, oferă elitelor urbane grija completă a unui „al treilea spațiu rafinat”."
+      },
+      "symbol": {
+        "title": "LEPAS, un simbol al vieții rafinate.",
+        "text": "Mai mult decât un vehicul, LEPAS este o semnătură a stilului de viață. Este spiritul de a rămâne calm în haos, elegant în mișcare, puternic în liniște. Pentru fiecare vânător urban al eleganței, devine o emblemă personală.\n\nGăsește-ți ritmul între rapid și lent. Echilibrează forța cu frumusețea. Mișcă-te cu blândețe, chiar și prin jungla de oțel."
+      }
+    },
+    "finale": "Drive Your Elegance"
+  },
+  "brandValues": {
+    "meta": {
+      "title": "Valorile brandului",
+      "description": "Estetica leopardului, tehnologia umanistă, explorarea și rafinamentul sustenabil – cele patru valori care definesc LEPAS."
+    },
+    "title": "Valorile brandului",
+    "values": {
+      "aesthetics": {
+        "name": "Estetica\nleopardului",
+        "slogan": "Leopard Beauty Aesthetics",
+        "title": "Frumusețea este putere,\neleganța este atitudine",
+        "text": "Inspirat de postura agilă și curbele naturale ale leopardului, LEPAS îmbină viteza și tensiunea cu linii fluide pentru a crea un design de vehicul care este deopotrivă impresionant și elegant, punând accent pe estetica „puterii flexibile”.\n\n„Leopard Beauty” nu este doar un limbaj de design, ci și o atitudine: îndrăzneață, încrezătoare, discretă dar cu personalitate, elegantă fără să-și piardă ascuțimea. Prin forța esteticii, LEPAS își dorește să trezească în utilizatori dorința de „rafinament” și de „exprimare de sine”."
+      },
+      "technology": {
+        "name": "Tehnologie\numanistă",
+        "slogan": "Tehnologie umanistă",
+        "title": "Tehnologia are căldură,\niar inteligența este pentru oameni",
+        "text": "LEPAS crede cu tărie că adevărata valoare a tehnologiei nu constă în acumularea de parametri, ci în a face fiecare călătorie mai sigură, mai plăcută și mai aproape de sufletul oamenilor.\n\nPunând în centru emoțiile și viața utilizatorilor, construim experiențe diverse pentru fiecare scenariu de viață, cu un sistem inteligent de siguranță, un al treilea spațiu rafinat și o super-platformă pentru orice situație – răspunzând prin tehnologie nevoilor delicate ale fiecărui utilizator și transformând călătoria rafinată într-un companion blând al vieții de zi cu zi și un motor al evoluției personale."
+      },
+      "exploration": {
+        "name": "Explorare",
+        "slogan": "Explorare",
+        "title": "Toată lumea merită\nsă stea la volan",
+        "text": "LEPAS crede că fiecare utilizator merită să fie tratat în mod egal și are dreptul să se exprime și să-și definească viața. Promovăm un spirit de brand fără prejudecăți și fără granițe și ne angajăm să creăm o scenă deschisă și incluzivă a călătoriei rafinate pentru oameni cu medii și stiluri de viață diverse.\n\nAici, fiecare voce este auzită, iar explorarea nu mai este privilegiul câtorva. În fiecare clipă în care ții volanul, răspunzi lumii în mod independent – o plecare curajoasă spre un spațiu mai larg în viață."
+      },
+      "sustainability": {
+        "name": "Rafinament\nsustenabil",
+        "slogan": "Rafinament sustenabil",
+        "title": "Frumusețe cu responsabilitate,\nmai puțin înseamnă mai mult",
+        "text": "LEPAS promovează un rafinament care nu vine în detrimentul viitorului. Credem că adevăratul rafinament nu stă în acumulare, ci în moderație, măsură și alegeri conștiente. De la materiale ecologice la design ușor, de la eficiență energetică la sisteme reciclabile, folosim un design sustenabil sistematic pentru a construi responsabilitatea pe întregul ciclu de viață al fiecărui vehicul.\n\nPentru LEPAS, rafinamentul nu ține doar de văz și atingere, ci este și o filozofie de viață blândă și fermă – mai puțin înseamnă mai mult, frumusețea este responsabilitate, iar schimbarea lumii se poate petrece liniștit și cu grație."
+      }
+    }
+  }
+}

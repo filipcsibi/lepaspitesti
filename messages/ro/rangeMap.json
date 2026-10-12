@@ -1,0 +1,27 @@
+{
+  "eyebrow": "Harta autonomiei",
+  "title": "Cât de departe ajungi din Pitești?",
+  "text": "Alege versiunea și vezi unde te duce LEPAS L6 fără nicio oprire – pornind din Pitești.",
+  "modeLabel": "Versiune",
+  "modes": {
+    "l6Bev": "L6 BEV",
+    "l6PhevElectric": "PHEV · electric",
+    "l6PhevTotal": "PHEV · total"
+  },
+  "hints": {
+    "l6Bev": "100% electric, cu o singură încărcare (WLTP)",
+    "l6PhevElectric": "doar pe baterie, fără benzină (WLTP)",
+    "l6PhevTotal": "cu un plin și o încărcare (WLTP)"
+  },
+  "tripLabel": "Tip de drum",
+  "oneWay": "Dus",
+  "roundTrip": "Dus-întors",
+  "roundTripHint": "cu tot cu drumul înapoi",
+  "summary": "{count, plural, =0 {Nicio destinație din listă} one {O destinație din {total}} few {# destinații din {total}} other {# de destinații din {total}}} fără nicio oprire.",
+  "allReachable": "Toată țara, fără nicio oprire.",
+  "reachable": "ajungi fără oprire",
+  "notReachable": "peste autonomie",
+  "mapLabel": "Harta României cu zona în care ajungi din Pitești fără oprire",
+  "footnote": "Autonomii WLTP; distanțe rutiere aproximative din Pitești. Cercul arată distanța echivalentă în linie dreaptă. Autonomia reală depinde de viteză, temperatură, relief și stilul de condus.",
+  "footnoteBev": "L6 BEV: date anunțate pentru piețele europene; valorile omologate pentru România urmează."
+}

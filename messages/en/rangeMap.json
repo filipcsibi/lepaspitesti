@@ -1,0 +1,27 @@
+{
+  "eyebrow": "Range map",
+  "title": "How far do you get from Pitești?",
+  "text": "Pick a version and see where the LEPAS L6 takes you without a single stop – starting from Pitești.",
+  "modeLabel": "Version",
+  "modes": {
+    "l6Bev": "L6 BEV",
+    "l6PhevElectric": "PHEV · electric",
+    "l6PhevTotal": "PHEV · total"
+  },
+  "hints": {
+    "l6Bev": "100% electric, on a single charge (WLTP)",
+    "l6PhevElectric": "on the battery alone, no petrol (WLTP)",
+    "l6PhevTotal": "on one tank and one charge (WLTP)"
+  },
+  "tripLabel": "Trip type",
+  "oneWay": "One way",
+  "roundTrip": "Round trip",
+  "roundTripHint": "including the way back",
+  "summary": "{count, plural, =0 {None of the listed destinations} one {One destination out of {total}} other {# destinations out of {total}}} without a single stop.",
+  "allReachable": "The whole country, without a single stop.",
+  "reachable": "reachable without stopping",
+  "notReachable": "beyond the range",
+  "mapLabel": "Map of Romania showing the area you can reach from Pitești without stopping",
+  "footnote": "WLTP ranges; approximate road distances from Pitești. The circle shows the equivalent straight-line distance. Real-world range depends on speed, temperature, terrain and driving style.",
+  "footnoteBev": "L6 BEV: figures announced for European markets; homologated values for Romania to follow."
+}
